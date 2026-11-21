@@ -15,16 +15,17 @@ import { EAuthModes } from "@/helpers/authentication.helper";
 import { useInstance } from "@/hooks/store/use-instance";
 
 const authContentMap = {
+  // Flowix: translation keys instead of literal English text, so titles follow the language.
   [EAuthModes.SIGN_IN]: {
-    pageTitle: "Sign in",
+    pageTitle: "auth.common.login",
     text: "auth.common.new_to_plane",
-    linkText: "Sign up",
+    linkText: "auth.sign_up.header.step.email.header",
     linkHref: "/sign-up",
   },
   [EAuthModes.SIGN_UP]: {
-    pageTitle: "Sign up",
+    pageTitle: "auth.sign_up.header.step.email.header",
     text: "auth.common.already_have_an_account",
-    linkText: "Sign in",
+    linkText: "auth.common.login",
     linkHref: "/sign-in",
   },
 };
