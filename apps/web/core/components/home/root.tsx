@@ -19,6 +19,9 @@ import { DashboardWidgets } from "./home-dashboard-widgets";
 import { UserGreetingsView } from "./user-greetings";
 import { HomePeekOverviewsRoot } from "../issues/peek-overview/peek-overviews";
 
+// Flowix: the Plane product tour is not shown.
+const SHOW_PRODUCT_TOUR = false as boolean;
+
 export const WorkspaceHomeView = observer(function WorkspaceHomeView() {
   // store hooks
   const { workspaceSlug } = useParams();
@@ -47,7 +50,7 @@ export const WorkspaceHomeView = observer(function WorkspaceHomeView() {
   // TODO: refactor loader implementation
   return (
     <>
-      {currentUserProfile && !currentUserProfile.is_tour_completed && (
+      {SHOW_PRODUCT_TOUR && currentUserProfile && !currentUserProfile.is_tour_completed && (
         <div className="fixed top-0 left-0 z-20 grid h-full w-full place-items-center overflow-y-auto bg-backdrop transition-opacity">
           <TourRoot onComplete={handleTourCompleted} />
         </div>

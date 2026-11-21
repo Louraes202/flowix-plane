@@ -1,0 +1,34 @@
+{
+  "command_k": {
+    "empty_state": {
+      "search": {
+        "title": "Nenhum resultado encontrado"
+      }
+    }
+  },
+  "sidebar": {
+    "stickies": "Notas",
+    "your_work": "O meu trabalho",
+    "projects": "Projetos",
+    "pages": "Páginas",
+    "new_work_item": "Nova tarefa",
+    "home": "Início",
+    "inbox": "Caixa de entrada",
+    "workspace": "Espaço de trabalho",
+    "views": "Vistas",
+    "analytics": "Análises",
+    "work_items": "Tarefas",
+    "cycles": "Ciclos",
+    "modules": "Módulos",
+    "intake": "Triagem",
+    "drafts": "Rascunhos",
+    "favorites": "Favoritos",
+    "pro": "Pro",
+    "upgrade": "Fazer upgrade",
+    "pi_chat": "Flowix IA",
+    "epics": "Épicos",
+    "upgrade_plan": "Fazer upgrade do plano",
+    "plane_pro": "Flowix Pro",
+    "business": "Business"
+  }
+}

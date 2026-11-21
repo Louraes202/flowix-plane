@@ -1,0 +1,87 @@
+{
+  "inbox_issue": {
+    "status": {
+      "pending": {
+        "title": "Pendente",
+        "description": "Pendente"
+      },
+      "declined": {
+        "title": "Recusada",
+        "description": "Recusada"
+      },
+      "snoozed": {
+        "title": "Adiada",
+        "description": "{days, plural, one{Falta # dia} other{Faltam # dias}}"
+      },
+      "accepted": {
+        "title": "Aceite",
+        "description": "Aceite"
+      },
+      "duplicate": {
+        "title": "Duplicada",
+        "description": "Duplicada"
+      }
+    },
+    "modals": {
+      "decline": {
+        "title": "Recusar tarefa",
+        "content": "Tem a certeza de que quer recusar a tarefa {value}?"
+      },
+      "delete": {
+        "title": "Eliminar tarefa",
+        "content": "Tem a certeza de que quer eliminar a tarefa {value}?",
+        "success": "Tarefa eliminada com sucesso"
+      }
+    },
+    "errors": {
+      "snooze_permission": "Só os administradores do projeto podem adiar ou reativar tarefas",
+      "accept_permission": "Só os administradores do projeto podem aceitar tarefas",
+      "decline_permission": "Só os administradores do projeto podem recusar tarefas"
+    },
+    "actions": {
+      "accept": "Aceitar",
+      "decline": "Recusar",
+      "snooze": "Adiar",
+      "unsnooze": "Reativar",
+      "copy": "Copiar ligação da tarefa",
+      "delete": "Eliminar",
+      "open": "Abrir tarefa",
+      "mark_as_duplicate": "Marcar como duplicada",
+      "move": "Mover {value} para as tarefas do projeto"
+    },
+    "source": {
+      "in-app": "na aplicação"
+    },
+    "order_by": {
+      "created_at": "Criada em",
+      "updated_at": "Atualizada em",
+      "id": "ID"
+    },
+    "label": "Triagem",
+    "page_label": "{workspace} - Triagem",
+    "modal": {
+      "title": "Criar tarefa de triagem"
+    },
+    "tabs": {
+      "open": "Abertas",
+      "closed": "Fechadas"
+    },
+    "empty_state": {
+      "sidebar_open_tab": {
+        "title": "Nenhuma tarefa aberta",
+        "description": "Encontre aqui as tarefas abertas. Crie uma nova tarefa."
+      },
+      "sidebar_closed_tab": {
+        "title": "Nenhuma tarefa fechada",
+        "description": "Todas as tarefas, aceites ou recusadas, podem ser encontradas aqui."
+      },
+      "sidebar_filter": {
+        "title": "Nenhuma tarefa correspondente",
+        "description": "Nenhuma tarefa corresponde ao filtro aplicado na triagem. Crie uma nova tarefa."
+      },
+      "detail": {
+        "title": "Selecione uma tarefa para ver os detalhes."
+      }
+    }
+  }
+}

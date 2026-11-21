@@ -1,0 +1,270 @@
+{
+  "common_empty_state": {
+    "progress": {
+      "title": "Ainda não há métricas de progresso para mostrar.",
+      "description": "Comece a definir valores de propriedades nas tarefas para ver aqui as métricas de progresso."
+    },
+    "updates": {
+      "title": "Ainda não há atualizações.",
+      "description": "Quando os membros do projeto adicionarem atualizações, estas aparecem aqui"
+    },
+    "search": {
+      "title": "Nenhum resultado correspondente.",
+      "description": "Nenhum resultado encontrado. Experimente ajustar os termos de pesquisa."
+    },
+    "not_found": {
+      "title": "Ups! Algo parece estar errado",
+      "description": "De momento, não conseguimos obter a sua conta Flowix. Pode ser um erro de rede.",
+      "cta_primary": "Tentar recarregar"
+    },
+    "server_error": {
+      "title": "Erro do servidor",
+      "description": "Não conseguimos ligar-nos ao nosso servidor para obter os dados. Não se preocupe, estamos a tratar do assunto.",
+      "cta_primary": "Tentar recarregar"
+    }
+  },
+  "project_empty_state": {
+    "no_access": {
+      "title": "Parece que não tem acesso a este projeto",
+      "restricted_description": "Contacte o administrador para pedir acesso e poder continuar aqui.",
+      "join_description": "Clique no botão abaixo para aderir.",
+      "cta_primary": "Aderir ao projeto",
+      "cta_loading": "A aderir ao projeto"
+    },
+    "invalid_project": {
+      "title": "Projeto não encontrado",
+      "description": "O projeto que procura não existe."
+    },
+    "work_items": {
+      "title": "Comece pela sua primeira tarefa.",
+      "description": "As tarefas são a base do seu projeto: atribua responsáveis, defina prioridades e acompanhe o progresso com facilidade.",
+      "cta_primary": "Criar a primeira tarefa"
+    },
+    "cycles": {
+      "title": "Agrupe e limite no tempo o seu trabalho com ciclos.",
+      "description": "Divida o trabalho em blocos com duração definida, planeie as datas a partir do prazo final do projeto e avance de forma concreta em equipa.",
+      "cta_primary": "Definir o primeiro ciclo"
+    },
+    "cycle_work_items": {
+      "title": "Não há tarefas para mostrar neste ciclo",
+      "description": "Crie tarefas para começar a acompanhar o progresso da sua equipa neste ciclo e cumprir os objetivos a tempo.",
+      "cta_primary": "Criar tarefa",
+      "cta_secondary": "Adicionar tarefa existente"
+    },
+    "modules": {
+      "title": "Associe os objetivos do projeto a módulos e acompanhe-os com facilidade.",
+      "description": "Os módulos são compostos por tarefas interligadas. Ajudam a acompanhar o progresso ao longo das fases do projeto, cada uma com prazos e análises próprios que mostram quão perto está de concluir essas fases.",
+      "cta_primary": "Definir o primeiro módulo"
+    },
+    "module_work_items": {
+      "title": "Não há tarefas para mostrar neste módulo",
+      "description": "Crie tarefas para começar a acompanhar este módulo.",
+      "cta_primary": "Criar tarefa",
+      "cta_secondary": "Adicionar tarefa existente"
+    },
+    "views": {
+      "title": "Guarde vistas personalizadas para o seu projeto",
+      "description": "As vistas são filtros guardados que dão acesso rápido à informação que mais utiliza. Colabore sem esforço: os colegas de equipa partilham e adaptam as vistas às suas necessidades.",
+      "cta_primary": "Criar vista"
+    },
+    "no_work_items_in_project": {
+      "title": "Ainda não há tarefas no projeto",
+      "description": "Adicione tarefas ao seu projeto e divida o trabalho em partes fáceis de acompanhar com vistas.",
+      "cta_primary": "Adicionar tarefa"
+    },
+    "work_item_filter": {
+      "title": "Nenhuma tarefa encontrada",
+      "description": "O filtro atual não devolveu resultados. Experimente alterar os filtros.",
+      "cta_primary": "Adicionar tarefa"
+    },
+    "pages": {
+      "title": "Documente tudo, das notas aos PRD",
+      "description": "As páginas permitem reunir e organizar informação num só lugar. Escreva atas de reuniões, documentação de projetos e PRD, incorpore tarefas e estruture tudo com componentes prontos a usar.",
+      "cta_primary": "Criar a primeira página"
+    },
+    "archive_pages": {
+      "title": "Ainda não há páginas arquivadas",
+      "description": "Arquive as páginas que não precisa de ter à vista. Aceda-lhes aqui quando precisar."
+    },
+    "intake_sidebar": {
+      "title": "Registar pedidos de triagem",
+      "description": "Submeta novos pedidos para serem revistos, priorizados e acompanhados no fluxo de trabalho do seu projeto.",
+      "cta_primary": "Criar pedido de triagem"
+    },
+    "intake_main": {
+      "title": "Selecione uma tarefa da triagem para ver os detalhes"
+    },
+    "epics": {
+      "title": "Transforme projetos complexos em épicos estruturados.",
+      "description": "Um épico ajuda a organizar grandes objetivos em partes mais pequenas e fáceis de acompanhar.",
+      "cta_primary": "Criar um épico",
+      "cta_secondary": "Documentação"
+    },
+    "epic_work_items": {
+      "title": "Ainda não adicionou tarefas a este épico.",
+      "description": "Comece por adicionar algumas tarefas a este épico e acompanhe-as aqui.",
+      "cta_secondary": "Adicionar tarefas"
+    }
+  },
+  "workspace_empty_state": {
+    "archive_epics": {
+      "title": "Ainda não há épicos arquivados",
+      "description": "Pode arquivar épicos concluídos ou cancelados. Depois de arquivados, encontra-os aqui."
+    },
+    "archive_work_items": {
+      "title": "Ainda não há tarefas arquivadas",
+      "description": "Pode arquivar tarefas concluídas ou canceladas, manualmente ou através de automatização. Depois de arquivadas, encontra-as aqui.",
+      "cta_primary": "Configurar automatização"
+    },
+    "archive_cycles": {
+      "title": "Ainda não há ciclos arquivados",
+      "description": "Para arrumar o seu projeto, arquive os ciclos concluídos. Depois de arquivados, encontra-os aqui."
+    },
+    "archive_modules": {
+      "title": "Ainda não há módulos arquivados",
+      "description": "Para arrumar o seu projeto, arquive os módulos concluídos ou cancelados. Depois de arquivados, encontra-os aqui."
+    },
+    "home_widget_quick_links": {
+      "title": "Tenha à mão as referências, recursos ou documentos importantes para o seu trabalho"
+    },
+    "inbox_sidebar_all": {
+      "title": "As atualizações das tarefas que subscreve aparecem aqui"
+    },
+    "inbox_sidebar_mentions": {
+      "title": "As menções nas suas tarefas aparecem aqui"
+    },
+    "your_work_by_priority": {
+      "title": "Ainda não tem tarefas atribuídas"
+    },
+    "your_work_by_state": {
+      "title": "Ainda não tem tarefas atribuídas"
+    },
+    "views": {
+      "title": "Ainda não há vistas",
+      "description": "Adicione tarefas ao seu projeto e utilize vistas para filtrar, ordenar e acompanhar o progresso sem esforço.",
+      "cta_primary": "Adicionar tarefa"
+    },
+    "drafts": {
+      "title": "Tarefas a meio",
+      "description": "Para experimentar, comece a adicionar uma tarefa e deixe-a a meio, ou crie o seu primeiro rascunho abaixo. 😉",
+      "cta_primary": "Criar rascunho de tarefa"
+    },
+    "projects_archived": {
+      "title": "Nenhum projeto arquivado",
+      "description": "Parece que todos os seus projetos continuam ativos. Bom trabalho!"
+    },
+    "analytics_projects": {
+      "title": "Crie projetos para ver aqui as métricas dos projetos."
+    },
+    "analytics_work_items": {
+      "title": "Crie projetos com tarefas e responsáveis para começar a acompanhar aqui o desempenho, o progresso e o impacto da equipa."
+    },
+    "analytics_no_cycle": {
+      "title": "Crie ciclos para organizar o trabalho em fases com duração definida e acompanhar o progresso ao longo dos sprints."
+    },
+    "analytics_no_module": {
+      "title": "Crie módulos para organizar o seu trabalho e acompanhar o progresso nas diferentes fases."
+    },
+    "analytics_no_intake": {
+      "title": "Configure a triagem para gerir os pedidos recebidos e acompanhar como são aceites e rejeitados"
+    },
+    "home_widget_stickies": {
+      "title": "Aponte uma ideia, guarde um momento de inspiração ou registe um rasgo de génio. Adicione uma nota para começar."
+    },
+    "stickies": {
+      "title": "Guarde ideias num instante",
+      "description": "Crie notas para apontamentos rápidos e coisas a fazer, e tenha-as sempre consigo, onde quer que esteja.",
+      "cta_primary": "Criar a primeira nota",
+      "cta_secondary": "Documentação"
+    },
+    "active_cycles": {
+      "title": "Nenhum ciclo ativo",
+      "description": "De momento, não tem ciclos em curso. Os ciclos ativos aparecem aqui quando incluem a data de hoje."
+    },
+    "dashboard": {
+      "title": "Veja o seu progresso com painéis",
+      "description": "Crie painéis personalizáveis para acompanhar métricas, medir resultados e apresentar conclusões de forma eficaz.",
+      "cta_primary": "Criar novo painel"
+    },
+    "wiki": {
+      "title": "Escreva uma nota, um documento ou uma base de conhecimento completa.",
+      "description": "As páginas são o espaço da Flowix para registar ideias. Escreva atas de reuniões, formate-as com facilidade, incorpore tarefas, organize-as com uma biblioteca de componentes e mantenha tudo no contexto do seu projeto.",
+      "cta_primary": "Criar a sua página"
+    },
+    "project_overview_state_sidebar": {
+      "title": "Ativar estados do projeto",
+      "description": "Ative os estados do projeto para ver e gerir propriedades como estado, prioridade, datas limite e outras."
+    }
+  },
+  "settings_empty_state": {
+    "estimates": {
+      "title": "Ainda não há estimativas",
+      "description": "Defina como a sua equipa mede o esforço e acompanhe-o de forma consistente em todas as tarefas.",
+      "cta_primary": "Adicionar sistema de estimativas"
+    },
+    "labels": {
+      "title": "Ainda não há etiquetas",
+      "description": "Crie etiquetas personalizadas para categorizar e gerir as suas tarefas de forma eficaz.",
+      "cta_primary": "Criar a primeira etiqueta"
+    },
+    "exports": {
+      "title": "Ainda não há exportações",
+      "description": "De momento, não tem registos de exportação. Depois de exportar dados, todos os registos aparecem aqui."
+    },
+    "tokens": {
+      "title": "Ainda não há tokens pessoais",
+      "description": "Gere tokens de API seguros para ligar o seu espaço de trabalho a sistemas e aplicações externos.",
+      "cta_primary": "Adicionar token de acesso"
+    },
+    "workspace_tokens": {
+      "title": "Ainda não há tokens de acesso",
+      "description": "Gere tokens de API seguros para ligar o seu espaço de trabalho a sistemas e aplicações externos.",
+      "cta_primary": "Adicionar token de acesso"
+    },
+    "webhooks": {
+      "title": "Ainda não foi adicionado nenhum webhook",
+      "description": "Automatize notificações para serviços externos quando ocorrem eventos no projeto.",
+      "cta_primary": "Adicionar webhook"
+    },
+    "work_item_types": {
+      "title": "Crie e personalize tipos de tarefa",
+      "description": "Defina tipos de tarefa próprios para o seu projeto. Cada tipo pode ter as suas propriedades, fluxos de trabalho e campos, adaptados às necessidades do projeto e da equipa.",
+      "cta_primary": "Ativar"
+    },
+    "work_item_type_properties": {
+      "title": "Defina a propriedade e os detalhes que pretende registar para este tipo de tarefa. Personalize-o de acordo com o fluxo de trabalho do seu projeto.",
+      "cta_secondary": "Adicionar propriedade"
+    },
+    "templates": {
+      "title": "Ainda não há modelos",
+      "description": "Reduza o tempo de configuração com modelos para tarefas e páginas, e comece trabalho novo em segundos.",
+      "cta_primary": "Criar o primeiro modelo"
+    },
+    "recurring_work_items": {
+      "title": "Ainda não há tarefas recorrentes",
+      "description": "Configure tarefas recorrentes para automatizar o trabalho repetitivo e cumprir o calendário sem esforço.",
+      "cta_primary": "Criar tarefa recorrente"
+    },
+    "worklogs": {
+      "title": "Acompanhe as folhas de horas de todos os membros",
+      "description": "Registe tempo nas tarefas para ver folhas de horas detalhadas de qualquer membro da equipa, em todos os projetos."
+    },
+    "group_syncing": {
+      "title": "Ainda não há mapeamentos de grupos"
+    },
+    "template_setting": {
+      "title": "Ainda não há modelos",
+      "description": "Reduza o tempo de configuração com modelos para projetos, tarefas e páginas, e comece trabalho novo em segundos.",
+      "cta_primary": "Criar modelo"
+    },
+    "workflows": {
+      "title": "Ainda não há fluxos de trabalho",
+      "description": "Crie fluxos de trabalho para gerir o progresso das suas tarefas.",
+      "cta_primary": "Adicionar novo fluxo de trabalho",
+      "states": {
+        "title": "Adicionar estados",
+        "description": "Selecione os estados pelos quais a tarefa avança."
+      }
+    }
+  }
+}

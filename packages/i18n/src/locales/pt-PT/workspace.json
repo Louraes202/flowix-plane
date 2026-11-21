@@ -1,0 +1,378 @@
+{
+  "workspace_creation": {
+    "heading": "Crie o seu espaço de trabalho",
+    "subheading": "Para começar a usar a Flowix, tem de criar um espaço de trabalho ou juntar-se a um.",
+    "form": {
+      "name": {
+        "label": "Dê um nome ao seu espaço de trabalho",
+        "placeholder": "Algo familiar e fácil de reconhecer é sempre a melhor opção."
+      },
+      "url": {
+        "label": "Defina o URL do seu espaço de trabalho",
+        "placeholder": "Escreva ou cole um URL",
+        "edit_slug": "Só pode editar o slug do URL"
+      },
+      "organization_size": {
+        "label": "Quantas pessoas vão usar este espaço de trabalho?",
+        "placeholder": "Selecione um intervalo"
+      }
+    },
+    "errors": {
+      "creation_disabled": {
+        "title": "Só o administrador da instância pode criar espaços de trabalho",
+        "description": "Se souber o endereço de email do administrador da instância, clique no botão abaixo para entrar em contacto.",
+        "request_button": "Pedir ao administrador da instância"
+      },
+      "validation": {
+        "name_alphanumeric": "Os nomes dos espaços de trabalho só podem conter (' '), ('-'), ('_') e caracteres alfanuméricos.",
+        "name_length": "O nome não pode ter mais de 80 caracteres.",
+        "url_alphanumeric": "Os URLs só podem conter ('-') e caracteres alfanuméricos.",
+        "url_length": "O URL não pode ter mais de 48 caracteres.",
+        "url_already_taken": "O URL do espaço de trabalho já está a ser usado!"
+      }
+    },
+    "request_email": {
+      "subject": "Pedido de novo espaço de trabalho",
+      "body": "Olá, administrador(es) da instância,\n\nPeço que criem um novo espaço de trabalho com o URL [/nome-do-espaço-de-trabalho] para [finalidade do espaço de trabalho].\n\nObrigado,\n{firstName} {lastName}\n{email}"
+    },
+    "button": {
+      "default": "Criar espaço de trabalho",
+      "loading": "A criar espaço de trabalho"
+    },
+    "toast": {
+      "success": {
+        "title": "Sucesso",
+        "message": "Espaço de trabalho criado com sucesso"
+      },
+      "error": {
+        "title": "Erro",
+        "message": "Não foi possível criar o espaço de trabalho. Tente novamente."
+      }
+    }
+  },
+  "workspace_dashboard": {
+    "empty_state": {
+      "general": {
+        "title": "Visão geral dos seus projetos, atividade e métricas",
+        "description": "Bem-vindo à Flowix, é um prazer tê-lo por cá. Crie o seu primeiro projeto e acompanhe as suas tarefas, e esta página passará a ser um espaço que o ajuda a avançar. Os administradores verão também elementos que ajudam a equipa a avançar.",
+        "primary_button": {
+          "text": "Crie o seu primeiro projeto",
+          "comic": {
+            "title": "Na Flowix, tudo começa com um projeto",
+            "description": "Um projeto pode ser o roadmap de um produto, uma campanha de marketing ou o lançamento de um carro novo."
+          }
+        }
+      }
+    }
+  },
+  "workspace_analytics": {
+    "label": "Análises",
+    "page_label": "{workspace} - Análises",
+    "open_tasks": "Total de tarefas abertas",
+    "error": "Ocorreu um erro ao obter os dados.",
+    "work_items_closed_in": "Tarefas fechadas em",
+    "selected_projects": "Projetos selecionados",
+    "total_members": "Total de membros",
+    "total_cycles": "Total de ciclos",
+    "total_modules": "Total de módulos",
+    "pending_work_items": {
+      "title": "Tarefas pendentes",
+      "empty_state": "A análise das tarefas pendentes por colega aparece aqui."
+    },
+    "work_items_closed_in_a_year": {
+      "title": "Tarefas fechadas num ano",
+      "empty_state": "Feche tarefas para ver a respetiva análise em gráfico."
+    },
+    "most_work_items_created": {
+      "title": "Mais tarefas criadas",
+      "empty_state": "Os colegas e o número de tarefas que criaram aparecem aqui."
+    },
+    "most_work_items_closed": {
+      "title": "Mais tarefas fechadas",
+      "empty_state": "Os colegas e o número de tarefas que fecharam aparecem aqui."
+    },
+    "tabs": {
+      "scope_and_demand": "Âmbito e procura",
+      "custom": "Análises personalizadas"
+    },
+    "total": "Total de {entity}",
+    "started_work_items": "{entity} iniciadas",
+    "backlog_work_items": "{entity} no Backlog",
+    "un_started_work_items": "{entity} por iniciar",
+    "completed_work_items": "{entity} concluídas",
+    "project_insights": "Indicadores do projeto",
+    "summary_of_projects": "Resumo dos projetos",
+    "all_projects": "Todos os projetos",
+    "trend_on_charts": "Tendência nos gráficos",
+    "active_projects": "Projetos ativos",
+    "customized_insights": "Indicadores personalizados",
+    "created_vs_resolved": "Criadas vs. resolvidas",
+    "empty_state": {
+      "project_insights": {
+        "title": "Ainda sem dados",
+        "description": "As tarefas atribuídas a si, divididas por estado, vão aparecer aqui."
+      },
+      "created_vs_resolved": {
+        "title": "Ainda sem dados",
+        "description": "As tarefas criadas e resolvidas ao longo do tempo vão aparecer aqui."
+      },
+      "customized_insights": {
+        "title": "Ainda sem dados",
+        "description": "As tarefas atribuídas a si, divididas por estado, vão aparecer aqui."
+      },
+      "general": {
+        "title": "Acompanhe o progresso, a carga de trabalho e as alocações. Detete tendências, elimine bloqueios e avance mais depressa",
+        "description": "Compare âmbito e procura, estimativas e aumento de âmbito. Veja o desempenho por membro e por equipa, e garanta que o projeto cumpre os prazos.",
+        "primary_button": {
+          "text": "Crie o seu primeiro projeto",
+          "comic": {
+            "title": "As análises funcionam melhor com ciclos e módulos",
+            "description": "Primeiro, distribua as tarefas por ciclos com prazo definido e, se possível, agrupe em módulos as tarefas que se estendem por mais de um ciclo. Encontra ambos na navegação à esquerda."
+          }
+        }
+      },
+      "cycle_progress": {
+        "title": "Ainda sem dados",
+        "description": "A análise do progresso dos ciclos vai aparecer aqui. Adicione tarefas aos ciclos para começar a acompanhar o progresso."
+      },
+      "module_progress": {
+        "title": "Ainda sem dados",
+        "description": "A análise do progresso dos módulos vai aparecer aqui. Adicione tarefas aos módulos para começar a acompanhar o progresso."
+      },
+      "intake_trends": {
+        "title": "Ainda sem dados",
+        "description": "A análise das tendências da triagem vai aparecer aqui. Adicione tarefas à triagem para começar a acompanhar as tendências."
+      }
+    },
+    "upgrade_to_plan": "Faça upgrade para o plano {plan} para desbloquear {tab}",
+    "workitem_resolved_vs_pending": "Tarefas resolvidas vs. pendentes",
+    "projects_by_status": "Projetos por estado",
+    "active_users": "Utilizadores ativos",
+    "intake_trends": "Tendências da triagem"
+  },
+  "workspace_projects": {
+    "label": "{count, plural, one {Projeto} other {Projetos}}",
+    "create": {
+      "label": "Adicionar projeto"
+    },
+    "network": {
+      "label": "Rede",
+      "private": {
+        "title": "Privado",
+        "description": "Acesso apenas por convite"
+      },
+      "public": {
+        "title": "Público",
+        "description": "Qualquer pessoa do espaço de trabalho, exceto convidados, pode juntar-se"
+      }
+    },
+    "error": {
+      "permission": "Não tem permissão para realizar esta ação.",
+      "cycle_delete": "Não foi possível eliminar o ciclo",
+      "module_delete": "Não foi possível eliminar o módulo",
+      "issue_delete": "Não foi possível eliminar a tarefa"
+    },
+    "state": {
+      "backlog": "Backlog",
+      "unstarted": "Por iniciar",
+      "started": "Iniciado",
+      "completed": "Concluído",
+      "cancelled": "Cancelado"
+    },
+    "sort": {
+      "manual": "Manual",
+      "name": "Nome",
+      "created_at": "Data de criação",
+      "members_length": "Número de membros"
+    },
+    "scope": {
+      "my_projects": "Os meus projetos",
+      "archived_projects": "Arquivados"
+    },
+    "common": {
+      "months_count": "{months, plural, one{# mês} other{# meses}}",
+      "days_count": "{days, plural, one{# dia} other{# dias}}"
+    },
+    "empty_state": {
+      "general": {
+        "title": "Nenhum projeto ativo",
+        "description": "Pense em cada projeto como a base do trabalho orientado para objetivos. É nos projetos que vivem as tarefas, os ciclos e os módulos que, juntamente com os seus colegas, o ajudam a atingir esse objetivo. Crie um novo projeto ou filtre os projetos arquivados.",
+        "primary_button": {
+          "text": "Crie o seu primeiro projeto",
+          "comic": {
+            "title": "Na Flowix, tudo começa com um projeto",
+            "description": "Um projeto pode ser o roadmap de um produto, uma campanha de marketing ou o lançamento de um carro novo."
+          }
+        }
+      },
+      "no_projects": {
+        "title": "Nenhum projeto",
+        "description": "Para criar tarefas ou gerir o seu trabalho, tem de criar um projeto ou fazer parte de um.",
+        "primary_button": {
+          "text": "Crie o seu primeiro projeto",
+          "comic": {
+            "title": "Na Flowix, tudo começa com um projeto",
+            "description": "Um projeto pode ser o roadmap de um produto, uma campanha de marketing ou o lançamento de um carro novo."
+          }
+        }
+      },
+      "filter": {
+        "title": "Nenhum projeto corresponde",
+        "description": "Não foram encontrados projetos que correspondam aos critérios.\n Em alternativa, crie um novo projeto."
+      },
+      "search": {
+        "description": "Não foram encontrados projetos que correspondam aos critérios.\nEm alternativa, crie um novo projeto"
+      }
+    }
+  },
+  "workspace_views": {
+    "add_view": "Adicionar vista",
+    "empty_state": {
+      "all-issues": {
+        "title": "Nenhuma tarefa no projeto",
+        "description": "Primeiro projeto criado! Agora, divida o seu trabalho em partes que possa acompanhar, com tarefas. Vamos a isso!",
+        "primary_button": {
+          "text": "Criar nova tarefa"
+        }
+      },
+      "assigned": {
+        "title": "Ainda sem tarefas",
+        "description": "Pode acompanhar aqui as tarefas atribuídas a si.",
+        "primary_button": {
+          "text": "Criar nova tarefa"
+        }
+      },
+      "created": {
+        "title": "Ainda sem tarefas",
+        "description": "Todas as tarefas que criar aparecem aqui, para as acompanhar diretamente.",
+        "primary_button": {
+          "text": "Criar nova tarefa"
+        }
+      },
+      "subscribed": {
+        "title": "Ainda sem tarefas",
+        "description": "Subscreva as tarefas que lhe interessam e acompanhe-as todas aqui."
+      },
+      "custom-view": {
+        "title": "Ainda sem tarefas",
+        "description": "As tarefas que correspondem aos filtros aparecem aqui, para as acompanhar todas."
+      }
+    },
+    "delete_view": {
+      "title": "Tem a certeza de que quer eliminar esta vista?",
+      "content": "Se confirmar, todas as opções de ordenação, filtros e apresentação, bem como o layout escolhido para esta vista, serão eliminados permanentemente, sem possibilidade de os restaurar."
+    }
+  },
+  "workspace_draft_issues": {
+    "draft_an_issue": "Criar rascunho de tarefa",
+    "empty_state": {
+      "title": "As tarefas a meio e, em breve, os comentários vão aparecer aqui.",
+      "description": "Para experimentar, comece a adicionar uma tarefa e deixe-a a meio, ou crie o seu primeiro rascunho abaixo. 😉",
+      "primary_button": {
+        "text": "Criar o primeiro rascunho"
+      }
+    },
+    "delete_modal": {
+      "title": "Eliminar rascunho",
+      "description": "Tem a certeza de que quer eliminar este rascunho? Esta ação não pode ser anulada."
+    },
+    "toasts": {
+      "created": {
+        "success": "Rascunho criado",
+        "error": "Não foi possível criar a tarefa. Tente novamente."
+      },
+      "deleted": {
+        "success": "Rascunho eliminado"
+      }
+    }
+  },
+  "workspace_pages": {
+    "empty_state": {
+      "general": {
+        "title": "Escreva uma nota, um documento ou uma base de conhecimento completa. Peça ajuda ao Galileo, o assistente de IA da Flowix, para começar",
+        "description": "As páginas são o espaço para desenvolver ideias na Flowix. Tome notas de reuniões, formate-as facilmente, incorpore tarefas, organize-as com uma biblioteca de componentes e mantenha tudo no contexto do seu projeto. Para despachar qualquer documento, chame o Galileo, a IA da Flowix, com um atalho ou um clique num botão.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "private": {
+        "title": "Ainda sem páginas privadas",
+        "description": "Guarde aqui as suas ideias privadas. Quando estiver pronto para partilhar, a equipa está à distância de um clique.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "public": {
+        "title": "Ainda sem páginas do espaço de trabalho",
+        "description": "Veja aqui as páginas partilhadas com todos no seu espaço de trabalho.",
+        "primary_button": {
+          "text": "Crie a sua primeira página"
+        }
+      },
+      "archived": {
+        "title": "Ainda sem páginas arquivadas",
+        "description": "Arquive as páginas que não estão no seu radar. Aceda-lhes aqui quando precisar."
+      },
+      "shared": {
+        "title": "Ainda sem páginas partilhadas",
+        "description": "As páginas que outras pessoas partilharam consigo vão aparecer aqui."
+      }
+    }
+  },
+  "workspace_cycles": {
+    "empty_state": {
+      "active": {
+        "title": "Nenhum ciclo ativo",
+        "description": "Ciclos dos seus projetos cujo intervalo inclui a data de hoje. Encontre aqui o progresso e os detalhes de todos os seus ciclos ativos."
+      }
+    }
+  },
+  "workspace": {
+    "members_import": {
+      "title": "Importar membros de CSV",
+      "description": "Carregue um CSV com as colunas: Email, Display Name, First Name, Last Name, Role (5, 15 ou 20)",
+      "dropzone": {
+        "active": "Largue o ficheiro CSV aqui",
+        "inactive": "Arraste e largue ou clique para carregar",
+        "file_type": "Só são suportados ficheiros .csv"
+      },
+      "buttons": {
+        "cancel": "Cancelar",
+        "import": "Importar",
+        "try_again": "Tentar novamente",
+        "close": "Fechar",
+        "done": "Concluído"
+      },
+      "progress": {
+        "uploading": "A carregar...",
+        "importing": "A importar..."
+      },
+      "summary": {
+        "title": {
+          "failed": "A importação falhou",
+          "complete": "Importação concluída"
+        },
+        "message": {
+          "seat_limit": "Não foi possível importar os membros devido ao limite de lugares.",
+          "success": "{count} membro{plural} adicionado{plural} ao espaço de trabalho com sucesso.",
+          "no_imports": "Não foi importado nenhum membro do ficheiro CSV."
+        },
+        "stats": {
+          "successful": "Com sucesso",
+          "failed": "Falhados"
+        },
+        "download_errors": "Transferir erros"
+      },
+      "toast": {
+        "invalid_file": {
+          "title": "Ficheiro inválido",
+          "message": "Só são suportados ficheiros CSV."
+        },
+        "import_failed": {
+          "title": "A importação falhou",
+          "message": "Algo correu mal."
+        }
+      }
+    }
+  }
+}

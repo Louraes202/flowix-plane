@@ -113,7 +113,10 @@ export const ProjectFeaturesList = observer(function ProjectFeaturesList(props: 
       <div>
         <SettingsHeading title={t("projects_and_issues")} description={t("projects_and_issues_description")} />
         <div className="mt-6 flex flex-col gap-y-4">
-          {Object.entries(PROJECT_FEATURES_LIST).map(([featureItemKey, featureItem]) => (
+          {/* Flowix: paid Plane features are not listed */}
+          {Object.entries(PROJECT_FEATURES_LIST)
+            .filter(([, featureItem]) => !featureItem.isPro)
+            .map(([featureItemKey, featureItem]) => (
             <div key={featureItemKey}>
               <SettingsBoxedControlItem
                 title={

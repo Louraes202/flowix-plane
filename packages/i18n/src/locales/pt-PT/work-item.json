@@ -1,0 +1,426 @@
+{
+  "issue": {
+    "label": "{count, plural, one {Tarefa} other {Tarefas}}",
+    "all": "Todas as tarefas",
+    "edit": "Editar tarefa",
+    "title": {
+      "label": "Título da tarefa",
+      "required": "O título da tarefa é obrigatório."
+    },
+    "add": {
+      "press_enter": "Prima 'Enter' para adicionar outra tarefa",
+      "label": "Adicionar tarefa",
+      "cycle": {
+        "failed": "Não foi possível adicionar a tarefa ao ciclo. Tente novamente.",
+        "success": "{count, plural, one {Tarefa adicionada} other {Tarefas adicionadas}} ao ciclo com sucesso.",
+        "loading": "A adicionar {count, plural, one {tarefa} other {tarefas}} ao ciclo"
+      },
+      "assignee": "Adicionar responsáveis",
+      "start_date": "Adicionar data de início",
+      "due_date": "Adicionar data limite",
+      "parent": "Adicionar tarefa principal",
+      "sub_issue": "Adicionar subtarefa",
+      "dependency": "Adicionar dependência",
+      "relation": "Adicionar relação",
+      "link": "Adicionar ligação",
+      "existing": "Adicionar tarefa existente"
+    },
+    "remove": {
+      "label": "Remover tarefa",
+      "cycle": {
+        "loading": "A remover a tarefa do ciclo",
+        "success": "Tarefa removida do ciclo com sucesso.",
+        "failed": "Não foi possível remover a tarefa do ciclo. Tente novamente."
+      },
+      "module": {
+        "loading": "A remover a tarefa do módulo",
+        "success": "Tarefa removida do módulo com sucesso.",
+        "failed": "Não foi possível remover a tarefa do módulo. Tente novamente."
+      },
+      "parent": {
+        "label": "Remover tarefa principal"
+      }
+    },
+    "new": "Nova tarefa",
+    "adding": "A adicionar tarefa",
+    "create": {
+      "success": "Tarefa criada com sucesso"
+    },
+    "priority": {
+      "urgent": "Urgente",
+      "high": "Alta",
+      "medium": "Média",
+      "low": "Baixa"
+    },
+    "display": {
+      "properties": {
+        "label": "Propriedades a apresentar",
+        "id": "ID",
+        "issue_type": "Tipo de tarefa",
+        "sub_issue_count": "Número de subtarefas",
+        "attachment_count": "Número de anexos",
+        "created_on": "Criada em",
+        "sub_issue": "Subtarefa",
+        "work_item_count": "Número de tarefas"
+      },
+      "extra": {
+        "show_sub_issues": "Mostrar subtarefas",
+        "show_empty_groups": "Mostrar grupos vazios"
+      }
+    },
+    "layouts": {
+      "ordered_by_label": "Este esquema está ordenado por",
+      "list": "Lista",
+      "kanban": "Quadro",
+      "calendar": "Calendário",
+      "spreadsheet": "Tabela",
+      "gantt": "Cronograma",
+      "title": {
+        "list": "Esquema de lista",
+        "kanban": "Esquema de quadro",
+        "calendar": "Esquema de calendário",
+        "spreadsheet": "Esquema de tabela",
+        "gantt": "Esquema de cronograma"
+      }
+    },
+    "states": {
+      "active": "Ativa",
+      "backlog": "Backlog"
+    },
+    "comments": {
+      "placeholder": "Adicionar comentário",
+      "switch": {
+        "private": "Mudar para comentário privado",
+        "public": "Mudar para comentário público"
+      },
+      "create": {
+        "success": "Comentário criado com sucesso",
+        "error": "Não foi possível criar o comentário. Tente novamente mais tarde."
+      },
+      "update": {
+        "success": "Comentário atualizado com sucesso",
+        "error": "Não foi possível atualizar o comentário. Tente novamente mais tarde."
+      },
+      "remove": {
+        "success": "Comentário removido com sucesso",
+        "error": "Não foi possível remover o comentário. Tente novamente mais tarde."
+      },
+      "upload": {
+        "error": "Não foi possível carregar o ficheiro. Tente novamente mais tarde."
+      },
+      "copy_link": {
+        "success": "Ligação do comentário copiada para a área de transferência",
+        "error": "Erro ao copiar a ligação do comentário. Tente novamente mais tarde."
+      },
+      "replies": {
+        "create": {
+          "submit_button": "Adicionar resposta",
+          "placeholder": "Adicionar resposta"
+        },
+        "toast": {
+          "fetch": {
+            "error": {
+              "message": "Não foi possível obter as respostas"
+            }
+          },
+          "create": {
+            "success": {
+              "message": "Resposta criada com sucesso"
+            },
+            "error": {
+              "message": "Não foi possível criar a resposta"
+            }
+          },
+          "update": {
+            "success": {
+              "message": "Resposta atualizada com sucesso"
+            },
+            "error": {
+              "message": "Não foi possível atualizar a resposta"
+            }
+          },
+          "delete": {
+            "success": {
+              "message": "Resposta eliminada com sucesso"
+            },
+            "error": {
+              "message": "Não foi possível eliminar a resposta"
+            }
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "issue_detail": {
+        "title": "A tarefa não existe",
+        "description": "A tarefa que procura não existe, foi arquivada ou foi eliminada.",
+        "primary_button": {
+          "text": "Ver outras tarefas"
+        }
+      }
+    },
+    "sibling": {
+      "label": "Tarefas irmãs"
+    },
+    "archive": {
+      "description": "Só é possível arquivar tarefas\nconcluídas ou canceladas",
+      "label": "Arquivar tarefa",
+      "confirm_message": "Tem a certeza de que pretende arquivar a tarefa? Todas as tarefas arquivadas podem ser restauradas mais tarde.",
+      "success": {
+        "label": "Tarefa arquivada",
+        "message": "Pode encontrar as tarefas arquivadas no arquivo do projeto."
+      },
+      "failed": {
+        "message": "Não foi possível arquivar a tarefa. Tente novamente."
+      }
+    },
+    "restore": {
+      "success": {
+        "title": "Tarefa restaurada",
+        "message": "Pode encontrar a tarefa nas tarefas do projeto."
+      },
+      "failed": {
+        "message": "Não foi possível restaurar a tarefa. Tente novamente."
+      }
+    },
+    "relation": {
+      "relates_to": "Relacionada com",
+      "duplicate": "Duplicado de",
+      "blocked_by": "Bloqueada por",
+      "blocking": "A bloquear",
+      "start_before": "Começa antes",
+      "start_after": "Começa depois",
+      "finish_before": "Termina antes",
+      "finish_after": "Termina depois",
+      "implements": "Implementa",
+      "implemented_by": "Implementada por"
+    },
+    "copy_link": "Copiar ligação da tarefa",
+    "delete": {
+      "label": "Eliminar tarefa",
+      "error": "Erro ao eliminar a tarefa"
+    },
+    "subscription": {
+      "actions": {
+        "subscribed": "Subscreveu a tarefa com sucesso",
+        "unsubscribed": "Cancelou a subscrição da tarefa com sucesso"
+      }
+    },
+    "select": {
+      "error": "Selecione pelo menos uma tarefa",
+      "empty": "Nenhuma tarefa selecionada",
+      "add_selected": "Adicionar tarefas selecionadas",
+      "select_all": "Selecionar tudo",
+      "deselect_all": "Desmarcar tudo"
+    },
+    "open_in_full_screen": "Abrir tarefa em ecrã inteiro",
+    "duplicate": {
+      "modal": {
+        "title": "Fazer uma cópia para outro projeto",
+        "description1": "Esta ação cria uma cópia da tarefa.",
+        "description2": "Todos os dados das propriedades serão removidos ao duplicar.",
+        "placeholder": "Selecione um projeto"
+      }
+    },
+    "toast": {
+      "duplicate": {
+        "success": {
+          "message": "Tarefa duplicada com sucesso"
+        },
+        "error": {
+          "message": "Não foi possível duplicar a tarefa"
+        }
+      }
+    },
+    "pages": {
+      "link_pages": "Ligar páginas",
+      "show_wiki_pages": "Mostrar páginas da Wiki",
+      "link_pages_to": "Ligar páginas a",
+      "linked_pages": "Páginas ligadas",
+      "no_description": "Esta página está vazia. Escreva algo e veja-o aparecer aqui, tal como este texto de exemplo",
+      "toasts": {
+        "link": {
+          "success": {
+            "title": "Páginas atualizadas",
+            "message": "Páginas atualizadas com sucesso"
+          },
+          "error": {
+            "title": "Não foi possível atualizar as páginas",
+            "message": "Não foi possível atualizar as páginas"
+          }
+        },
+        "remove": {
+          "success": {
+            "title": "Página removida",
+            "message": "Página removida com sucesso"
+          },
+          "error": {
+            "title": "Não foi possível remover a página",
+            "message": "Não foi possível remover a página"
+          }
+        }
+      }
+    },
+    "vote": {
+      "click_to_upvote": "Clique para votar a favor",
+      "click_to_downvote": "Clique para votar contra",
+      "click_to_view_upvotes": "Clique para ver os votos a favor",
+      "click_to_view_downvotes": "Clique para ver os votos contra"
+    }
+  },
+  "sub_work_item": {
+    "update": {
+      "success": "Subtarefa atualizada com sucesso",
+      "error": "Erro ao atualizar a subtarefa"
+    },
+    "remove": {
+      "success": "Subtarefa removida com sucesso",
+      "error": "Erro ao remover a subtarefa"
+    },
+    "empty_state": {
+      "sub_list_filters": {
+        "title": "Não há subtarefas que correspondam aos filtros aplicados.",
+        "description": "Para ver todas as subtarefas, limpe todos os filtros aplicados.",
+        "action": "Limpar filtros"
+      },
+      "list_filters": {
+        "title": "Não há tarefas que correspondam aos filtros aplicados.",
+        "description": "Para ver todas as tarefas, limpe todos os filtros aplicados.",
+        "action": "Limpar filtros"
+      }
+    }
+  },
+  "issue_relation": {
+    "empty_state": {
+      "search": {
+        "title": "Nenhuma tarefa correspondente encontrada"
+      },
+      "no_issues": {
+        "title": "Nenhuma tarefa encontrada"
+      }
+    }
+  },
+  "issue_comment": {
+    "empty_state": {
+      "general": {
+        "title": "Ainda não há comentários",
+        "description": "Os comentários servem como espaço de discussão e acompanhamento das tarefas"
+      }
+    }
+  },
+  "bulk_operations": {
+    "error_details": {
+      "invalid_archive_state_group": {
+        "title": "Não é possível arquivar as tarefas",
+        "message": "Só é possível arquivar tarefas que pertençam aos grupos de estado Concluído ou Cancelado."
+      },
+      "invalid_issue_start_date": {
+        "title": "Não é possível atualizar as tarefas",
+        "message": "A data de início selecionada é posterior à data limite de algumas tarefas. Garanta que a data de início é anterior à data limite."
+      },
+      "invalid_issue_target_date": {
+        "title": "Não é possível atualizar as tarefas",
+        "message": "A data limite selecionada é anterior à data de início de algumas tarefas. Garanta que a data limite é posterior à data de início."
+      },
+      "invalid_state_transition": {
+        "title": "Não é possível atualizar as tarefas",
+        "message": "A mudança de estado não é permitida para algumas tarefas. Garanta que a mudança de estado é permitida."
+      }
+    }
+  },
+  "recurring_work_items": {
+    "settings": {
+      "heading": "Tarefas recorrentes",
+      "description": "Configure o trabalho repetitivo uma vez e nós tratamos das repetições. Quando chegar a altura, vê tudo aqui.",
+      "new_recurring_work_item": "Nova tarefa recorrente",
+      "update_recurring_work_item": "Atualizar tarefa recorrente",
+      "form": {
+        "interval": {
+          "title": "Agendamento",
+          "start_date": {
+            "validation": {
+              "required": "A data de início é obrigatória"
+            }
+          },
+          "interval_type": {
+            "validation": {
+              "required": "O tipo de intervalo é obrigatório"
+            }
+          }
+        },
+        "button": {
+          "create": "Criar tarefa recorrente",
+          "update": "Atualizar tarefa recorrente"
+        }
+      },
+      "create_button": {
+        "label": "Criar tarefa recorrente",
+        "no_permission": "Contacte o administrador do projeto para criar tarefas recorrentes"
+      }
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "O seu trabalho em piloto automático",
+        "description": "Configure uma vez. Nós trazemo-lo de volta quando chegar a altura. Faça upgrade para o plano Business e o trabalho recorrente deixa de dar trabalho."
+      },
+      "no_templates": {
+        "button": "Crie a sua primeira tarefa recorrente"
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Tarefa recorrente criada",
+          "message": "A tarefa recorrente {name} já está disponível no seu espaço de trabalho."
+        },
+        "error": {
+          "title": "Desta vez, não foi possível criar a tarefa recorrente.",
+          "message": "Tente guardar os dados novamente ou copie-os para uma nova tarefa recorrente, de preferência noutro separador."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Tarefa recorrente alterada",
+          "message": "A tarefa recorrente {name} foi alterada."
+        },
+        "error": {
+          "title": "Não foi possível guardar as alterações desta tarefa recorrente.",
+          "message": "Tente guardar os dados novamente ou volte a esta tarefa recorrente mais tarde. Se o problema persistir, contacte-nos."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Tarefa recorrente eliminada",
+          "message": "A tarefa recorrente {name} foi eliminada do seu espaço de trabalho."
+        },
+        "error": {
+          "title": "Não foi possível eliminar a tarefa recorrente.",
+          "message": "Tente eliminá-la novamente ou volte mais tarde. Se mesmo assim não conseguir, contacte-nos."
+        }
+      }
+    },
+    "delete_confirmation": {
+      "title": "Eliminar tarefa recorrente",
+      "description": {
+        "prefix": "Tem a certeza de que pretende eliminar a tarefa recorrente-",
+        "suffix": "? Todos os dados relacionados com a tarefa recorrente serão removidos permanentemente. Esta ação não pode ser anulada."
+      }
+    }
+  },
+  "epic": {
+    "new": "Novo épico",
+    "label": "{count, plural, one {Épico} other {Épicos}}",
+    "adding": "A adicionar épico",
+    "create": {
+      "success": "Épico criado com sucesso"
+    },
+    "add": {
+      "label": "Adicionar épico",
+      "press_enter": "Prima 'Enter' para adicionar outro épico"
+    },
+    "title": {
+      "label": "Título do épico",
+      "required": "O título do épico é obrigatório."
+    }
+  }
+}

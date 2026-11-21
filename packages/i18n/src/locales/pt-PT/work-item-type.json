@@ -1,0 +1,477 @@
+{
+  "work_item_types": {
+    "label": "Tipos de tarefa",
+    "label_lowercase": "tipos de tarefa",
+    "settings": {
+      "description": "Personalize e adicione as suas próprias propriedades para as adaptar às necessidades da sua equipa.",
+      "cant_delete_default_message": "Não é possível eliminar este tipo de tarefa porque está definido como predefinido neste projeto.",
+      "set_as_default": "Definir como predefinido",
+      "cant_set_default_inactive_message": "Ative este tipo antes de o definir como predefinido",
+      "set_default_confirmation": {
+        "title": "Definir como tipo de tarefa predefinido",
+        "description": "Definir {name} como predefinido vai importá-lo para todos os projetos deste espaço de trabalho. Todas as novas tarefas passam a usar este tipo por predefinição.",
+        "confirm_button": "Definir como predefinido"
+      },
+      "properties": {
+        "title": "Propriedades personalizadas",
+        "description": "Crie e personalize propriedades.",
+        "tooltip": "Cada tipo de tarefa inclui um conjunto predefinido de propriedades, como Título, Descrição, Responsável, Estado, Prioridade, Data de início, Data limite, Módulo, Ciclo, etc. Também pode personalizar e adicionar as suas próprias propriedades para as adaptar às necessidades da sua equipa.",
+        "add_button": "Adicionar nova propriedade",
+        "project": {
+          "add_button": {
+            "import_from_workspace": "Importar do espaço de trabalho"
+          }
+        },
+        "dropdown": {
+          "label": "Tipo de propriedade",
+          "placeholder": "Selecionar tipo"
+        },
+        "property_type": {
+          "text": {
+            "label": "Texto"
+          },
+          "number": {
+            "label": "Número"
+          },
+          "dropdown": {
+            "label": "Lista pendente"
+          },
+          "boolean": {
+            "label": "Booleano"
+          },
+          "date": {
+            "label": "Data"
+          },
+          "member_picker": {
+            "label": "Seletor de membros"
+          },
+          "formula": {
+            "label": "Fórmula"
+          }
+        },
+        "attributes": {
+          "label": "Atributos",
+          "text": {
+            "single_line": {
+              "label": "Linha única"
+            },
+            "multi_line": {
+              "label": "Parágrafo"
+            },
+            "readonly": {
+              "label": "Só de leitura",
+              "header": "Dados só de leitura"
+            },
+            "invalid_text_format": {
+              "label": "Formato de texto inválido"
+            }
+          },
+          "number": {
+            "default": {
+              "placeholder": "Adicionar número"
+            }
+          },
+          "relation": {
+            "single_select": {
+              "label": "Seleção única"
+            },
+            "multi_select": {
+              "label": "Seleção múltipla"
+            },
+            "no_default_value": {
+              "label": "Sem valor predefinido"
+            }
+          },
+          "boolean": {
+            "label": "Verdadeiro | Falso",
+            "no_default": "Sem valor predefinido"
+          },
+          "option": {
+            "create_update": {
+              "label": "Opções",
+              "form": {
+                "placeholder": "Adicionar opção",
+                "errors": {
+                  "name": {
+                    "required": "O nome da opção é obrigatório.",
+                    "integrity": "Já existe uma opção com o mesmo nome."
+                  }
+                }
+              }
+            },
+            "select": {
+              "placeholder": {
+                "single": "Selecionar opção",
+                "multi": {
+                  "default": "Selecionar opções",
+                  "variable": "{count} opções selecionadas"
+                }
+              }
+            }
+          }
+        },
+        "toast": {
+          "create": {
+            "success": {
+              "title": "Sucesso!",
+              "message": "Propriedade {name} criada com sucesso."
+            },
+            "error": {
+              "title": "Erro!",
+              "message": "Não foi possível criar a propriedade. Tente novamente!"
+            }
+          },
+          "update": {
+            "success": {
+              "title": "Sucesso!",
+              "message": "Propriedade {name} atualizada com sucesso."
+            },
+            "error": {
+              "title": "Erro!",
+              "message": "Não foi possível atualizar a propriedade. Tente novamente!"
+            }
+          },
+          "delete": {
+            "success": {
+              "title": "Sucesso!",
+              "message": "Propriedade {name} eliminada com sucesso."
+            },
+            "error": {
+              "title": "Erro!",
+              "message": "Não foi possível eliminar a propriedade. Tente novamente!"
+            }
+          },
+          "enable_disable": {
+            "loading": "{action} a propriedade {name}",
+            "success": {
+              "title": "Sucesso!",
+              "message": "Propriedade {name} {action} com sucesso."
+            },
+            "error": {
+              "title": "Erro!",
+              "message": "Não foi possível {action} a propriedade. Tente novamente!"
+            }
+          }
+        },
+        "create_update": {
+          "title": {
+            "create": "Criar nova propriedade personalizada",
+            "update": "Atualizar propriedade personalizada"
+          },
+          "form": {
+            "display_name": {
+              "placeholder": "Título"
+            },
+            "description": {
+              "placeholder": "Descrição"
+            }
+          },
+          "errors": {
+            "name": {
+              "required": "Tem de dar um nome à propriedade.",
+              "max_length": "O nome da propriedade não pode exceder 255 caracteres."
+            },
+            "property_type": {
+              "required": "Tem de selecionar um tipo de propriedade."
+            },
+            "options": {
+              "required": "Tem de adicionar pelo menos uma opção."
+            },
+            "formula": {
+              "required": "A expressão da fórmula é obrigatória.",
+              "invalid": "Fórmula inválida: {error}",
+              "circular_reference": "Foi detetada uma referência circular. Uma fórmula não pode referir-se a si própria, direta ou indiretamente.",
+              "invalid_reference": "A fórmula refere uma propriedade que não existe."
+            }
+          }
+        },
+        "formula": {
+          "field_label": "Campo de fórmula",
+          "tooltip": "Introduza uma fórmula com a sintaxe '{'Nome do campo'}'. Suporta os operadores +, -, *, / e &.",
+          "placeholder": "Escreva a fórmula",
+          "test_button": "Testar",
+          "validating": "A validar",
+          "validation_success": "A fórmula é válida! Devolve {resultType}",
+          "validation_success_with_refs": "A fórmula é válida! Devolve {resultType} ({count} campo(s) referido(s))",
+          "error": {
+            "empty": "Introduza uma fórmula",
+            "missing_context": "Falta o contexto do espaço de trabalho, do projeto ou do tipo de tarefa",
+            "validation_failed": "A validação falhou"
+          },
+          "picker": {
+            "no_match": "Nenhuma propriedade correspondente",
+            "no_available": "Nenhuma propriedade disponível"
+          }
+        },
+        "enable_disable": {
+          "label": "Ativa",
+          "tooltip": {
+            "disabled": "Clique para desativar",
+            "enabled": "Clique para ativar"
+          }
+        },
+        "delete_confirmation": {
+          "title": "Eliminar esta propriedade",
+          "description": "Eliminar propriedades pode levar à perda de dados existentes.",
+          "secondary_description": "Prefere desativar a propriedade?",
+          "primary_button": "{action}, eliminar",
+          "secondary_button": "Sim, desativar"
+        },
+        "mandate_confirmation": {
+          "label": "Propriedade obrigatória",
+          "content": "Esta propriedade parece ter uma opção predefinida. Ao tornar a propriedade obrigatória, o valor predefinido é removido e os utilizadores terão de adicionar um valor à sua escolha.",
+          "tooltip": {
+            "disabled": "Este tipo de propriedade não pode ser obrigatório",
+            "enabled": "Desmarque para tornar o campo opcional",
+            "checked": "Marque para tornar o campo obrigatório"
+          }
+        },
+        "empty_state": {
+          "title": "Adicionar propriedades personalizadas",
+          "description": "As novas propriedades que adicionar a este tipo de tarefa aparecem aqui."
+        }
+      },
+      "types": {
+        "title": "Tipos",
+        "description": "Crie e personalize tipos de tarefa com propriedades.",
+        "sort_options": {
+          "project_count": "Número de projetos em que está incluído"
+        },
+        "filter_options": {
+          "show_active": "Mostrar ativos",
+          "show_inactive": "Mostrar inativos"
+        },
+        "project": {
+          "add_button": {
+            "create_new": "Criar novo",
+            "import_from_workspace": "Importar do espaço de trabalho"
+          },
+          "banner": {
+            "with_access": "Ative os tipos de tarefa para importar tipos ao nível do espaço de trabalho",
+            "without_access": "Os tipos de tarefa estão desativados. Contacte o administrador do espaço de trabalho para os ativar nas definições do espaço de trabalho."
+          }
+        }
+      },
+      "linked_properties": {
+        "title": "Propriedades personalizadas",
+        "add_button": "Adicionar propriedades",
+        "modal": {
+          "title": "Adicionar propriedades",
+          "empty": {
+            "title": "Nenhuma propriedade disponível",
+            "description": "Todas as propriedades já estão associadas a este tipo."
+          }
+        },
+        "unlink_confirmation": {
+          "title": "Desassociar propriedade",
+          "description": "Desassociar esta propriedade elimina permanentemente todos os seus valores em todas as tarefas deste tipo. Esta ação não pode ser anulada.",
+          "input_label": "Escreva",
+          "input_label_suffix": "para continuar:",
+          "confirm": "Desassociar propriedade",
+          "loading": "A desassociar"
+        }
+      },
+      "item_delete_confirmation": {
+        "title": "Eliminar este tipo",
+        "description": "Eliminar tipos pode levar à perda de dados existentes.",
+        "can_disable_warning": "Prefere desativar o tipo?",
+        "primary_button": "Sim, eliminar",
+        "toast": {
+          "success": {
+            "title": "Sucesso!",
+            "message": "Tipo de tarefa eliminado com sucesso."
+          },
+          "error": {
+            "title": "Erro!",
+            "message": "Não foi possível eliminar o tipo de tarefa. Tente novamente!"
+          }
+        },
+        "errors": {
+          "cannot_delete_default_work_item_type": "Não é possível eliminar o tipo de tarefa predefinido",
+          "cannot_delete_work_item_type_with_associated_work_items": "Não é possível eliminar um tipo de tarefa com tarefas associadas"
+        }
+      }
+    },
+    "create": {
+      "title": "Criar tipo de tarefa",
+      "button": "Adicionar tipo de tarefa",
+      "toast": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Tipo de tarefa criado com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": {
+            "default": "Não foi possível criar o tipo de tarefa. Tente novamente!",
+            "conflict": "O tipo {name} já existe. Escolha outro nome."
+          }
+        }
+      }
+    },
+    "update": {
+      "title": "Atualizar tipo de tarefa",
+      "button": "Atualizar tipo de tarefa",
+      "toast": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Tipo de tarefa {name} atualizado com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": {
+            "default": "Não foi possível atualizar o tipo de tarefa. Tente novamente!",
+            "conflict": "O tipo {name} já existe. Escolha outro nome."
+          }
+        }
+      }
+    },
+    "create_update": {
+      "form": {
+        "name": {
+          "placeholder": "Dê um nome único a este tipo de tarefa"
+        },
+        "description": {
+          "placeholder": "Descreva para que serve este tipo de tarefa e quando deve ser usado."
+        }
+      }
+    },
+    "enable_disable": {
+      "toast": {
+        "loading": "{action} o tipo de tarefa {name}",
+        "success": {
+          "title": "Sucesso!",
+          "message": "Tipo de tarefa {name} {action} com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": "Não foi possível {action} o tipo de tarefa. Tente novamente!"
+        }
+      },
+      "tooltip": "Clique para {action}"
+    },
+    "change_confirmation": {
+      "title": "Alterar o tipo de tarefa?",
+      "description": "Alterar o tipo de tarefa pode levar à perda dos valores das propriedades personalizadas específicas do tipo atual. Esta ação não pode ser anulada.",
+      "button": {
+        "loading": "A alterar",
+        "default": "Alterar tipo"
+      }
+    },
+    "empty_state": {
+      "enable": {
+        "title": "Ativar tipos de tarefa",
+        "description": "Adapte as tarefas à sua forma de trabalhar com os tipos de tarefa. Personalize-os com ícones, fundos e propriedades e configure-os para este projeto.",
+        "primary_button": {
+          "text": "Ativar"
+        },
+        "confirmation": {
+          "title": "Depois de ativados, os tipos de tarefa não podem ser desativados.",
+          "description": "A tarefa da Flowix passa a ser o tipo de tarefa predefinido deste projeto e aparece com o seu ícone e fundo neste projeto.",
+          "button": {
+            "default": "Ativar",
+            "loading": "A configurar"
+          }
+        }
+      },
+      "get_pro": {
+        "title": "Obtenha o Pro para ativar os tipos de tarefa.",
+        "description": "Adapte as tarefas à sua forma de trabalhar com os tipos de tarefa. Personalize-os com ícones, fundos e propriedades e configure-os para este projeto.",
+        "primary_button": {
+          "text": "Obter Pro"
+        }
+      },
+      "upgrade": {
+        "title": "Atualize o plano para ativar os tipos de tarefa.",
+        "description": "Adapte as tarefas à sua forma de trabalhar com os tipos de tarefa. Personalize-os com ícones, fundos e propriedades e configure-os para este projeto.",
+        "primary_button": {
+          "text": "Fazer upgrade do plano"
+        }
+      }
+    }
+  },
+  "work_item_type_hierarchy": {
+    "settings": {
+      "title": "Hierarquia",
+      "tab_label": "Hierarquia",
+      "description": "Configure os níveis da hierarquia para organizar o seu trabalho. Cada nível define uma relação de pai com o item imediatamente acima e uma relação de filho com o item imediatamente abaixo. ",
+      "sidebar_label": "Hierarquia",
+      "enable_control": {
+        "title": "Ativar hierarquia",
+        "description": "Crie relações pai-filho entre diferentes tipos de tarefa.",
+        "tooltip": "Depois de ativada, a hierarquia não pode ser desativada."
+      },
+      "workspace_work_item_types_disabled_banner": {
+        "content": "Defina primeiro os tipos de tarefa para criar uma nova hierarquia.",
+        "cta": "Definições dos tipos de tarefa"
+      }
+    },
+    "levels": {
+      "max_level_placeholder": "Arraste e largue um tipo para adicionar um novo nível à hierarquia",
+      "empty_level_placeholder": "Arraste e largue um tipo de tarefa para o nível {level}",
+      "drag_tooltip": "Arraste para mudar de nível",
+      "quick_actions": {
+        "set_as_default": {
+          "label": "Definir como predefinido",
+          "toast": {
+            "loading": "A definir como predefinido...",
+            "success": {
+              "title": "Sucesso!",
+              "message": "Nível {level} da hierarquia definido como predefinido com sucesso."
+            },
+            "error": {
+              "title": "Erro!",
+              "message": "Não foi possível definir o nível {level} da hierarquia como predefinido. Tente novamente."
+            }
+          }
+        }
+      },
+      "update_level_toast": {
+        "loading": "A mover {workItemTypeName} para o nível {level}...",
+        "success": {
+          "title": "Sucesso!",
+          "message": "{workItemTypeName} foi movido para o nível {level} com sucesso."
+        }
+      }
+    },
+    "break_hierarchy_modal": {
+      "title": "Erro de validação!",
+      "content": {
+        "intro": "O tipo de tarefa {workItemTypeName} tem:",
+        "parent_items": "{count, plural, one {tarefa principal} other {tarefas principais}}",
+        "child_items": "{count, plural, one {subtarefa} other {subtarefas}}",
+        "parent_line_suffix_when_also_children": " e ",
+        "footer": "Esta alteração remove as relações pai-filho das tarefas existentes do tipo {workItemTypeName}."
+      },
+      "confirm_input": {
+        "label": "Escreva «Confirmar» para continuar.",
+        "placeholder": "Confirmar"
+      },
+      "error_toast": {
+        "title": "Erro!",
+        "message": "Não foi possível quebrar a hierarquia. Tente novamente."
+      },
+      "confirm_button": {
+        "loading": "A aplicar",
+        "default": "Aplicar e desassociar"
+      }
+    },
+    "work_item_modal": {
+      "invalid_work_item_type_create_toast": {
+        "title": "Erro!",
+        "message": "O tipo de tarefa selecionado não pode ser usado para criar uma nova tarefa porque viola as regras da hierarquia."
+      },
+      "invalid_work_item_type_update_toast": {
+        "title": "Erro!",
+        "message": "Não é possível atualizar o tipo de tarefa porque viola as regras da hierarquia."
+      }
+    },
+    "work_item_type_modal": {
+      "level": "Nível da hierarquia",
+      "invalid_level_toast": {
+        "title": "Erro!",
+        "message": "Não é possível atualizar o tipo de tarefa porque viola as regras da hierarquia."
+      }
+    }
+  }
+}

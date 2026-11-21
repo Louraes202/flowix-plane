@@ -1,0 +1,333 @@
+{
+  "templates": {
+    "settings": {
+      "title": "Modelos",
+      "description": "Poupe 80% do tempo gasto a criar projetos, tarefas e páginas com a utilização de modelos.",
+      "new_project_template": "Novo modelo de projeto",
+      "new_work_item_template": "Novo modelo de tarefa",
+      "new_page_template": "Novo modelo de página",
+      "options": {
+        "project": {
+          "label": "Modelos de projeto"
+        },
+        "work_item": {
+          "label": "Modelos de tarefa"
+        },
+        "page": {
+          "label": "Modelos de página"
+        }
+      },
+      "create_template": {
+        "label": "Criar modelo",
+        "no_permission": {
+          "project": "Contacte o administrador do projeto para criar modelos",
+          "workspace": "Contacte o administrador do espaço de trabalho para criar modelos"
+        }
+      },
+      "use_template": {
+        "button": {
+          "default": "Usar modelo",
+          "loading": "A aplicar"
+        }
+      },
+      "template_source": {
+        "workspace": {
+          "info": "Herdado do espaço de trabalho"
+        },
+        "project": {
+          "info": "Herdado do projeto"
+        }
+      },
+      "form": {
+        "project": {
+          "template": {
+            "name": {
+              "placeholder": "Dê um nome ao modelo de projeto.",
+              "validation": {
+                "required": "O nome do modelo é obrigatório",
+                "maxLength": "O nome do modelo deve ter menos de 255 caracteres"
+              }
+            },
+            "description": {
+              "placeholder": "Descreva quando e como utilizar este modelo."
+            }
+          },
+          "name": {
+            "placeholder": "Dê um nome ao projeto.",
+            "validation": {
+              "required": "O título do projeto é obrigatório",
+              "maxLength": "O título do projeto deve ter menos de 255 caracteres"
+            }
+          },
+          "description": {
+            "placeholder": "Descreva a finalidade e os objetivos deste projeto."
+          },
+          "button": {
+            "create": "Criar modelo de projeto",
+            "update": "Atualizar modelo de projeto"
+          }
+        },
+        "work_item": {
+          "template": {
+            "name": {
+              "placeholder": "Dê um nome ao modelo de tarefa.",
+              "validation": {
+                "required": "O nome do modelo é obrigatório",
+                "maxLength": "O nome do modelo deve ter menos de 255 caracteres"
+              }
+            },
+            "description": {
+              "placeholder": "Descreva quando e como utilizar este modelo."
+            }
+          },
+          "name": {
+            "placeholder": "Dê um título a esta tarefa.",
+            "validation": {
+              "required": "O título da tarefa é obrigatório",
+              "maxLength": "O título da tarefa deve ter menos de 255 caracteres"
+            }
+          },
+          "description": {
+            "placeholder": "Descreva esta tarefa para que fique claro o que vai alcançar quando a concluir."
+          },
+          "button": {
+            "create": "Criar modelo de tarefa",
+            "update": "Atualizar modelo de tarefa"
+          }
+        },
+        "page": {
+          "template": {
+            "name": {
+              "placeholder": "Dê um nome ao modelo de página.",
+              "validation": {
+                "required": "O nome do modelo é obrigatório",
+                "maxLength": "O nome do modelo deve ter menos de 255 caracteres"
+              }
+            },
+            "description": {
+              "placeholder": "Descreva quando e como utilizar este modelo."
+            }
+          },
+          "name": {
+            "placeholder": "Página sem título",
+            "validation": {
+              "maxLength": "O nome da página deve ter menos de 255 caracteres"
+            }
+          },
+          "button": {
+            "create": "Criar modelo de página",
+            "update": "Atualizar modelo de página"
+          }
+        },
+        "publish": {
+          "action": "{isPublished, select, true {Definições de publicação} other {Publicar no Marketplace}}",
+          "unpublish_action": "Retirar do Marketplace",
+          "title": "Torne o seu modelo fácil de encontrar e de reconhecer.",
+          "name": {
+            "label": "Nome do modelo",
+            "placeholder": "Dê um nome ao modelo",
+            "validation": {
+              "required": "O nome do modelo é obrigatório",
+              "maxLength": "O nome do modelo deve ter menos de 255 caracteres"
+            }
+          },
+          "short_description": {
+            "label": "Descrição curta",
+            "placeholder": "Este modelo é ideal para gestores de projeto que gerem vários projetos ao mesmo tempo.",
+            "validation": {
+              "required": "A descrição curta é obrigatória"
+            }
+          },
+          "description": {
+            "label": "Descrição",
+            "placeholder": "Aumente a produtividade e simplifique a comunicação com a nossa integração de voz para texto.\n• Transcrição em tempo real: converta instantaneamente a fala em texto preciso.\n• Criação de tarefas e comentários: adicione tarefas, descrições e comentários através de comandos de voz.",
+            "validation": {
+              "required": "A descrição é obrigatória"
+            }
+          },
+          "category": {
+            "label": "Categoria",
+            "placeholder": "Escolha onde acha que encaixa melhor. Pode escolher mais do que uma.",
+            "validation": {
+              "required": "É obrigatória pelo menos uma categoria"
+            }
+          },
+          "keywords": {
+            "label": "Palavras-chave",
+            "placeholder": "Use termos que acha que os seus utilizadores vão pesquisar quando procurarem este modelo.",
+            "helperText": "Introduza palavras-chave separadas por vírgulas que ajudem as pessoas a encontrar este modelo na pesquisa.",
+            "validation": {
+              "required": "É obrigatória pelo menos uma palavra-chave"
+            }
+          },
+          "website": {
+            "label": "URL do site",
+            "placeholder": "https://flowix.pt",
+            "validation": {
+              "invalid": "URL inválido",
+              "maxLength": "O URL deve ter menos de 800 caracteres"
+            }
+          },
+          "company_name": {
+            "label": "Nome da empresa",
+            "placeholder": "Flowix",
+            "validation": {
+              "required": "O nome da empresa é obrigatório",
+              "maxLength": "O nome da empresa deve ter menos de 255 caracteres"
+            }
+          },
+          "contact_email": {
+            "label": "Email de contacto",
+            "placeholder": "ajuda@flowix.pt",
+            "validation": {
+              "invalid": "Endereço de email inválido",
+              "maxLength": "O email de contacto deve ter menos de 255 caracteres"
+            }
+          },
+          "privacy_policy_url": {
+            "label": "Ligação para a sua política de privacidade",
+            "placeholder": "https://flowix.pt/privacidade",
+            "validation": {
+              "invalid": "URL inválido",
+              "maxLength": "O URL deve ter menos de 800 caracteres"
+            }
+          },
+          "terms_of_service_url": {
+            "label": "Ligação para os seus termos de utilização",
+            "placeholder": "https://flowix.pt/termos",
+            "validation": {
+              "invalid": "URL inválido",
+              "maxLength": "O URL deve ter menos de 800 caracteres"
+            }
+          },
+          "cover_image": {
+            "label": "Adicione uma imagem de capa para apresentar no marketplace",
+            "upload_title": "Carregar imagem de capa",
+            "upload_placeholder": "Clique para carregar ou arraste e largue uma imagem de capa",
+            "drop_here": "Largue aqui",
+            "click_to_upload": "Clique para carregar",
+            "invalid_file_or_exceeds_size_limit": "Ficheiro inválido ou acima do limite de tamanho. Tente novamente.",
+            "upload_and_save": "Carregar e guardar",
+            "uploading": "A carregar",
+            "remove": "Remover",
+            "removing": "A remover",
+            "validation": {
+              "required": "A imagem de capa é obrigatória"
+            }
+          },
+          "attach_screenshots": {
+            "label": "Inclua imagens que ajudem quem vê este modelo a perceber o que oferece.",
+            "validation": {
+              "required": "É obrigatória pelo menos uma captura de ecrã"
+            }
+          }
+        }
+      }
+    },
+    "empty_state": {
+      "upgrade": {
+        "title": "Modelos",
+        "description": "Com os modelos de projeto, de tarefa e de página da Flowix, não precisa de criar um projeto do zero nem de definir manualmente as propriedades das tarefas.",
+        "sub_description": "Recupere 80% do seu tempo administrativo com a utilização de modelos."
+      },
+      "no_templates": {
+        "button": "Crie o seu primeiro modelo"
+      },
+      "no_labels": {
+        "description": "Ainda não há etiquetas. Crie etiquetas para ajudar a organizar e filtrar as tarefas do seu projeto."
+      },
+      "no_modules": {
+        "description": "Ainda não há módulos. Organize o trabalho em subprojetos com líderes e responsáveis dedicados."
+      },
+      "no_work_items": {
+        "description": "Ainda não há tarefas. Adicione uma para estruturar melhor o seu trabalho."
+      },
+      "no_sub_work_items": {
+        "description": "Ainda não há subtarefas. Adicione uma para estruturar melhor o seu trabalho."
+      },
+      "page": {
+        "no_templates": {
+          "title": "Não há modelos a que tenha acesso.",
+          "description": "Crie um modelo"
+        },
+        "no_results": {
+          "title": "Nenhum modelo corresponde à pesquisa.",
+          "description": "Experimente pesquisar com outros termos."
+        }
+      }
+    },
+    "toasts": {
+      "create": {
+        "success": {
+          "title": "Modelo criado",
+          "message": "O modelo de {templateType} {templateName} já está disponível no seu espaço de trabalho."
+        },
+        "error": {
+          "title": "Desta vez, não foi possível criar o modelo.",
+          "message": "Tente guardar os dados novamente ou copie-os para um novo modelo, de preferência noutro separador."
+        }
+      },
+      "update": {
+        "success": {
+          "title": "Modelo alterado",
+          "message": "O modelo de {templateType} {templateName} foi alterado."
+        },
+        "error": {
+          "title": "Não foi possível guardar as alterações deste modelo.",
+          "message": "Tente guardar os dados novamente ou volte a este modelo mais tarde. Se o problema persistir, contacte-nos."
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Modelo eliminado",
+          "message": "O modelo de {templateType} {templateName} foi eliminado do seu espaço de trabalho."
+        },
+        "error": {
+          "title": "Não foi possível eliminar o modelo.",
+          "message": "Tente eliminá-lo novamente ou volte mais tarde. Se mesmo assim não conseguir, contacte-nos."
+        }
+      },
+      "unpublish": {
+        "success": {
+          "title": "Publicação do modelo retirada",
+          "message": "O modelo de {templateType} {templateName} deixou de estar publicado."
+        },
+        "error": {
+          "title": "Não foi possível retirar a publicação do modelo.",
+          "message": "Tente retirar a publicação novamente ou volte mais tarde. Se mesmo assim não conseguir, contacte-nos."
+        }
+      }
+    },
+    "delete_confirmation": {
+      "title": "Eliminar modelo",
+      "description": {
+        "prefix": "Tem a certeza de que pretende eliminar o modelo-",
+        "suffix": "? Todos os dados relacionados com o modelo serão removidos permanentemente. Esta ação não pode ser anulada."
+      }
+    },
+    "unpublish_confirmation": {
+      "title": "Retirar publicação do modelo",
+      "description": {
+        "prefix": "Tem a certeza de que pretende retirar a publicação do modelo-",
+        "suffix": "? Este modelo deixará de estar disponível para os utilizadores no marketplace."
+      }
+    },
+    "dropdown": {
+      "add": {
+        "work_item": "Adicionar novo modelo",
+        "project": "Adicionar novo modelo"
+      },
+      "label": {
+        "project": "Escolher um modelo de projeto",
+        "page": "Escolher a partir de um modelo"
+      },
+      "tooltip": {
+        "work_item": "Escolher um modelo de tarefa"
+      },
+      "no_results": {
+        "work_item": "Nenhum modelo encontrado.",
+        "project": "Nenhum modelo encontrado."
+      }
+    }
+  }
+}

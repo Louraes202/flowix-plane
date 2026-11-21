@@ -1,0 +1,156 @@
+{
+  "account_settings": {
+    "profile": {
+      "change_email_modal": {
+        "title": "Alterar email",
+        "description": "Introduza um novo endereço de email para receber uma ligação de verificação.",
+        "toasts": {
+          "success_title": "Sucesso!",
+          "success_message": "Email atualizado com sucesso. Inicie sessão novamente."
+        },
+        "form": {
+          "email": {
+            "label": "Novo email",
+            "placeholder": "Introduza o seu email",
+            "errors": {
+              "required": "O email é obrigatório",
+              "invalid": "O email é inválido",
+              "exists": "Este email já existe. Use outro.",
+              "validation_failed": "Falha na validação do email. Tente novamente."
+            }
+          },
+          "code": {
+            "label": "Código único",
+            "placeholder": "123456",
+            "helper_text": "Código de verificação enviado para o novo email.",
+            "errors": {
+              "required": "O código único é obrigatório",
+              "invalid": "Código de verificação inválido. Tente novamente."
+            }
+          }
+        },
+        "actions": {
+          "continue": "Continuar",
+          "confirm": "Confirmar",
+          "cancel": "Cancelar"
+        },
+        "states": {
+          "sending": "A enviar…"
+        }
+      }
+    },
+    "preferences": {
+      "heading": "Preferências",
+      "description": "Personalize a sua experiência na aplicação de acordo com a forma como trabalha"
+    },
+    "notifications": {
+      "heading": "Notificações por email",
+      "description": "Mantenha-se a par das tarefas que subscreve. Ative esta opção para receber notificações.",
+      "select_default_view": "Selecionar vista predefinida",
+      "compact": "Compacta",
+      "full": "Ecrã inteiro"
+    },
+    "security": {
+      "heading": "Segurança"
+    },
+    "api_tokens": {
+      "title": "Tokens de acesso pessoal",
+      "description": "Gere tokens de API seguros para integrar os seus dados com sistemas e aplicações externos."
+    },
+    "activity": {
+      "heading": "Atividade",
+      "description": "Acompanhe as suas ações e alterações recentes em todos os projetos e tarefas."
+    },
+    "connections": {
+      "title": "Ligações",
+      "heading": "Ligações",
+      "description": "Faça a gestão das definições de ligações do seu espaço de trabalho."
+    }
+  },
+  "profile": {
+    "label": "Perfil",
+    "page_label": "O meu trabalho",
+    "work": "Trabalho",
+    "details": {
+      "joined_on": "Aderiu em",
+      "time_zone": "Fuso horário"
+    },
+    "stats": {
+      "workload": "Carga de trabalho",
+      "overview": "Visão geral",
+      "created": "Tarefas criadas",
+      "assigned": "Tarefas atribuídas",
+      "subscribed": "Tarefas subscritas",
+      "state_distribution": {
+        "title": "Tarefas por estado",
+        "empty": "Crie tarefas para as ver por estado no gráfico e obter uma análise melhor."
+      },
+      "priority_distribution": {
+        "title": "Tarefas por prioridade",
+        "empty": "Crie tarefas para as ver por prioridade no gráfico e obter uma análise melhor."
+      },
+      "recent_activity": {
+        "title": "Atividade recente",
+        "empty": "Não foram encontrados dados. Verifique os dados introduzidos",
+        "button": "Transferir a atividade de hoje",
+        "button_loading": "A transferir"
+      }
+    },
+    "actions": {
+      "profile": "Perfil",
+      "security": "Segurança",
+      "activity": "Atividade",
+      "preferences": "Preferências",
+      "notifications": "Notificações",
+      "api-tokens": "Tokens de acesso pessoal",
+      "connections": "Ligações"
+    },
+    "tabs": {
+      "summary": "Resumo",
+      "assigned": "Atribuídas",
+      "created": "Criadas",
+      "subscribed": "Subscritas",
+      "activity": "Atividade"
+    },
+    "empty_state": {
+      "activity": {
+        "title": "Ainda sem atividade",
+        "description": "Comece por criar uma nova tarefa! Adicione-lhe detalhes e propriedades. Explore mais a Flowix para ver a sua atividade."
+      },
+      "assigned": {
+        "title": "Não tem tarefas atribuídas",
+        "description": "As tarefas que lhe forem atribuídas podem ser acompanhadas aqui."
+      },
+      "created": {
+        "title": "Ainda sem tarefas",
+        "description": "Todas as tarefas que criar aparecem aqui, para as acompanhar diretamente."
+      },
+      "subscribed": {
+        "title": "Ainda sem tarefas",
+        "description": "Subscreva as tarefas que lhe interessam e acompanhe-as todas aqui."
+      }
+    }
+  },
+  "themes": {
+    "theme_options": {
+      "system_preference": {
+        "label": "Preferência do sistema"
+      },
+      "light": {
+        "label": "Claro"
+      },
+      "dark": {
+        "label": "Escuro"
+      },
+      "light_contrast": {
+        "label": "Claro de alto contraste"
+      },
+      "dark_contrast": {
+        "label": "Escuro de alto contraste"
+      },
+      "custom": {
+        "label": "Tema personalizado"
+      }
+    }
+  }
+}
