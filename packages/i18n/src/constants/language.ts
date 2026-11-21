@@ -6,9 +6,11 @@
 
 import type { TLanguage, ILanguageOption } from "../types";
 
-export const FALLBACK_LANGUAGE: TLanguage = "en";
+// Flowix: Portuguese (Portugal) is the default language; English stays as the fallback for missing keys.
+export const FALLBACK_LANGUAGE: TLanguage = "pt-PT";
 
 export const SUPPORTED_LANGUAGES: ILanguageOption[] = [
+  { label: "Português (Portugal)", value: "pt-PT" },
   { label: "English", value: "en" },
   { label: "Français", value: "fr" },
   { label: "Español", value: "es" },

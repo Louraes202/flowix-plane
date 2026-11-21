@@ -52,6 +52,8 @@ export const SidebarWorkspaceMenuItem = observer(function SidebarWorkspaceMenuIt
   if (!allowPermissions(item.access as any, EUserPermissionsLevel.WORKSPACE, workspaceSlug.toString())) {
     return null;
   }
+  // Flowix: "Active cycles" is a paid Plane feature, hide it.
+  if (item.key === "active_cycles") return null;
 
   const isActive = item.href === pathname;
 

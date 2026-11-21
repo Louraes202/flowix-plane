@@ -155,6 +155,8 @@ export const ExtendedSidebarItem = observer(function ExtendedSidebarItem(props: 
   if (!allowPermissions(item.access as any, EUserPermissionsLevel.WORKSPACE, workspaceSlug.toString())) {
     return null;
   }
+  // Flowix: "Active cycles" is a paid Plane feature, hide it.
+  if (item.key === "active_cycles") return null;
 
   return (
     <div

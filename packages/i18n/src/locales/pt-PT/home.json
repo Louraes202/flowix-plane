@@ -1,0 +1,77 @@
+{
+  "home": {
+    "empty": {
+      "quickstart_guide": "O seu guia de início rápido",
+      "not_right_now": "Agora não",
+      "create_project": {
+        "title": "Criar um projeto",
+        "description": "Quase tudo começa com um projeto na Flowix.",
+        "cta": "Começar"
+      },
+      "invite_team": {
+        "title": "Convide a sua equipa",
+        "description": "Construa, entregue e faça a gestão com os seus colegas.",
+        "cta": "Convidar"
+      },
+      "configure_workspace": {
+        "title": "Configure o seu espaço de trabalho.",
+        "description": "Ative ou desative funcionalidades, ou vá mais longe.",
+        "cta": "Configurar este espaço de trabalho"
+      },
+      "personalize_account": {
+        "title": "Torne a Flowix sua.",
+        "description": "Escolha a sua fotografia, cores e muito mais.",
+        "cta": "Personalizar agora"
+      },
+      "widgets": {
+        "title": "Sem widgets fica muito vazio, ative-os",
+        "description": "Parece que todos os seus widgets estão desativados. Ative-os\nagora para melhorar a sua experiência!",
+        "primary_button": {
+          "text": "Gerir widgets"
+        }
+      }
+    },
+    "quick_links": {
+      "empty": "Guarde ligações para o trabalho que quer ter sempre à mão.",
+      "add": "Adicionar ligação rápida",
+      "title": "Ligação rápida",
+      "title_plural": "Ligações rápidas"
+    },
+    "recents": {
+      "title": "Recentes",
+      "empty": {
+        "project": "Os seus projetos recentes vão aparecer aqui depois de visitar um.",
+        "page": "As suas páginas recentes vão aparecer aqui depois de visitar uma.",
+        "issue": "As suas tarefas recentes vão aparecer aqui depois de visitar uma.",
+        "default": "Ainda não tem nenhum item recente."
+      },
+      "filters": {
+        "all": "Todos",
+        "projects": "Projetos",
+        "pages": "Páginas",
+        "issues": "Tarefas"
+      }
+    },
+    "new_at_plane": {
+      "title": "Novidades na Flowix"
+    },
+    "quick_tutorial": {
+      "title": "Tutorial rápido"
+    },
+    "widget": {
+      "reordered_successfully": "Widget reordenado com sucesso.",
+      "reordering_failed": "Ocorreu um erro ao reordenar o widget."
+    },
+    "manage_widgets": "Gerir widgets",
+    "title": "Início",
+    "star_us_on_github": "Dê-nos uma estrela no GitHub",
+    "business_trial_banner": {
+      "title": "O seu período experimental de 14 dias do plano Business está ativo!",
+      "description": "Explore todas as funcionalidades Business. Quando estiver pronto, escolha subscrever. Não será cobrado automaticamente.",
+      "trial_ends_today": "O período experimental termina hoje",
+      "trial_ends_in_days": "O período experimental termina daqui a {days, plural, one {# dia} other {# dias}}",
+      "start_subscription": "Iniciar subscrição",
+      "explore_business_features": "Explorar funcionalidades Business"
+    }
+  }
+}

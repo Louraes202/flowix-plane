@@ -1,0 +1,115 @@
+{
+  "page_navigation_pane": {
+    "tabs": {
+      "outline": {
+        "label": "Estrutura",
+        "empty_state": {
+          "title": "Sem títulos",
+          "description": "Adicione alguns títulos a esta página para os ver aqui."
+        }
+      },
+      "info": {
+        "label": "Info",
+        "document_info": {
+          "words": "Palavras",
+          "characters": "Caracteres",
+          "paragraphs": "Parágrafos",
+          "read_time": "Tempo de leitura"
+        },
+        "actors_info": {
+          "edited_by": "Editada por",
+          "created_by": "Criada por"
+        },
+        "version_history": {
+          "label": "Histórico de versões",
+          "current_version": "Versão atual",
+          "highlight_changes": "Destacar alterações"
+        }
+      },
+      "assets": {
+        "label": "Recursos",
+        "download_button": "Transferir",
+        "empty_state": {
+          "title": "Sem imagens",
+          "description": "Adicione imagens para as ver aqui."
+        }
+      },
+      "comments": {
+        "label": "Comentários",
+        "empty_state": {
+          "title": "Sem comentários",
+          "description": "Adicione comentários para os ver aqui."
+        }
+      }
+    },
+    "toasts": {
+      "errors": {
+        "wrong_name": "O nome da nota não pode ter mais de 100 caracteres.",
+        "already_exists": "Já existe uma nota sem descrição"
+      },
+      "created": {
+        "title": "Nota criada",
+        "message": "A nota foi criada com sucesso"
+      },
+      "not_created": {
+        "title": "Nota não criada",
+        "message": "Não foi possível criar a nota"
+      },
+      "updated": {
+        "title": "Nota atualizada",
+        "message": "A nota foi atualizada com sucesso"
+      },
+      "not_updated": {
+        "title": "Nota não atualizada",
+        "message": "Não foi possível atualizar a nota"
+      },
+      "removed": {
+        "title": "Nota removida",
+        "message": "A nota foi removida com sucesso"
+      },
+      "not_removed": {
+        "title": "Nota não removida",
+        "message": "Não foi possível remover a nota"
+      }
+    },
+    "open_button": "Abrir painel de navegação",
+    "close_button": "Fechar painel de navegação",
+    "outline_floating_button": "Abrir estrutura"
+  },
+  "page_actions": {
+    "move_page": {
+      "submit_button": {
+        "default": "Mover",
+        "loading": "A mover"
+      },
+      "cannot_move_to_teamspace": "As páginas privadas e partilhadas não podem ser movidas para um espaço de equipa.",
+      "placeholders": {
+        "workspace_to_all": "Pesquisar projetos e espaços de equipa",
+        "workspace_to_project": "Pesquisar projetos",
+        "project_to_all": "Pesquisar projetos e espaços de equipa",
+        "project_to_project": "Pesquisar projetos",
+        "project_to_all_with_wiki": "Pesquisar coleções da wiki, projetos e espaços de equipa",
+        "project_to_project_with_wiki": "Pesquisar coleções da wiki e projetos"
+      },
+      "toasts": {
+        "success": {
+          "title": "Sucesso!",
+          "message": "Página movida com sucesso."
+        },
+        "error": {
+          "title": "Erro!",
+          "message": "Não foi possível mover a página. Tente novamente mais tarde."
+        },
+        "collection_error": {
+          "title": "Movida para a wiki",
+          "message": "A página foi movida para a wiki, mas não foi possível adicioná-la à coleção selecionada. Continua em Geral."
+        }
+      }
+    },
+    "remove_from_collection": {
+      "label": "Remover da coleção",
+      "success_message": "Página removida da coleção.",
+      "error_message": "Não foi possível remover a página da coleção. Tente novamente."
+    }
+  }
+}

@@ -27,30 +27,30 @@ type TAuthHeader = {
 const Titles = {
   [EAuthModes.SIGN_IN]: {
     [EAuthSteps.EMAIL]: {
-      header: "Work in all dimensions.",
-      subHeader: "Welcome back to Plane.",
+      header: "Automatizamos o presente. Libertamos o futuro.",
+      subHeader: "Bem-vindo de volta à Flowix.",
     },
     [EAuthSteps.PASSWORD]: {
-      header: "Work in all dimensions.",
-      subHeader: "Welcome back to Plane.",
+      header: "Automatizamos o presente. Libertamos o futuro.",
+      subHeader: "Bem-vindo de volta à Flowix.",
     },
     [EAuthSteps.UNIQUE_CODE]: {
-      header: "Work in all dimensions.",
-      subHeader: "Welcome back to Plane.",
+      header: "Automatizamos o presente. Libertamos o futuro.",
+      subHeader: "Bem-vindo de volta à Flowix.",
     },
   },
   [EAuthModes.SIGN_UP]: {
     [EAuthSteps.EMAIL]: {
-      header: "Work in all dimensions.",
-      subHeader: "Create your Plane account.",
+      header: "Automatizamos o presente. Libertamos o futuro.",
+      subHeader: "Cria a tua conta na Flowix.",
     },
     [EAuthSteps.PASSWORD]: {
-      header: "Work in all dimensions.",
-      subHeader: "Create your Plane account.",
+      header: "Automatizamos o presente. Libertamos o futuro.",
+      subHeader: "Cria a tua conta na Flowix.",
     },
     [EAuthSteps.UNIQUE_CODE]: {
-      header: "Work in all dimensions.",
-      subHeader: "Create your Plane account.",
+      header: "Automatizamos o presente. Libertamos o futuro.",
+      subHeader: "Cria a tua conta na Flowix.",
     },
   },
 };

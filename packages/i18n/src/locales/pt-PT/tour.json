@@ -1,0 +1,195 @@
+{
+  "product_tour": {
+    "workitems": {
+      "step_zero": {
+        "title": "Bem-vindo ao seu espaço de trabalho",
+        "description": "Para o ajudar a começar, criámos um projeto de demonstração. Vamos adicionar a sua primeira tarefa."
+      },
+      "step_one": {
+        "title": "Clique em \"+ Adicionar tarefa\"",
+        "description": "Comece por clicar no botão \"+ Nova tarefa\". Pode criar tarefas, bugs ou um tipo personalizado adequado às suas necessidades."
+      },
+      "step_two": {
+        "title": "Filtre as suas tarefas",
+        "description": "Use os filtros para restringir rapidamente a lista. Pode filtrar por estado, prioridade ou membros da equipa. "
+      },
+      "step_three": {
+        "title": "Veja, agrupe e ordene as tarefas como precisar.",
+        "description": "Veja as propriedades de que precisa e agrupe ou ordene as tarefas de acordo com as suas necessidades."
+      },
+      "step_four": {
+        "title": "Visualize como quiser",
+        "description": "Escolha as propriedades que quer ver na lista. Também pode agrupar e ordenar as tarefas à sua maneira."
+      }
+    },
+    "cycle": {
+      "step_zero": {
+        "title": "Avance com os Ciclos",
+        "description": "Prima Q para criar um ciclo. Dê-lhe um nome e defina as datas. Só pode haver um ciclo ativo por projeto."
+      },
+      "step_one": {
+        "title": "Criar um novo ciclo",
+        "description": "Prima Q para criar um ciclo. Dê-lhe um nome e defina as datas. Só pode haver um ciclo ativo por projeto."
+      },
+      "step_two": {
+        "title": "Clique em \"+\"",
+        "description": "Comece por clicar no botão \"+\". Adicione tarefas novas ou existentes diretamente na página do ciclo."
+      },
+      "step_three": {
+        "title": "Resumo do ciclo",
+        "description": "Acompanhe o progresso do ciclo, a produtividade da equipa e as prioridades, e investigue se algo se atrasar."
+      },
+      "step_four": {
+        "title": "Transferir tarefas",
+        "description": "Depois da data limite, o ciclo é concluído automaticamente. Mova o trabalho por terminar para outro ciclo."
+      }
+    },
+    "module": {
+      "step_zero": {
+        "title": "Divida o seu projeto em Módulos",
+        "description": "Os módulos são projetos mais pequenos e focados que ajudam a agrupar e organizar tarefas em períodos específicos."
+      },
+      "step_one": {
+        "title": "Criar módulo",
+        "description": "Os módulos são projetos mais pequenos e focados que ajudam a agrupar e organizar tarefas em períodos específicos."
+      },
+      "step_two": {
+        "title": "Clique em \"+\"",
+        "description": "Comece por clicar no botão \"+\". Adicione tarefas novas ou existentes diretamente na página do módulo."
+      },
+      "step_three": {
+        "title": "Estados do módulo",
+        "description": "Os módulos usam estes estados para ajudar a planear e acompanhar com clareza o progresso e a fase."
+      },
+      "step_four": {
+        "title": "Progresso do módulo",
+        "description": "O progresso do módulo é medido pelas tarefas concluídas, com análises para acompanhar o desempenho."
+      }
+    },
+    "page": {
+      "step_zero": {
+        "title": "Documente com Páginas com IA",
+        "description": "As páginas da Flowix permitem registar, organizar e colaborar na informação do projeto, sem ferramentas externas."
+      },
+      "step_one": {
+        "title": "Tornar a página pública ou privada",
+        "description": "As páginas podem ser públicas, visíveis para todos no seu espaço de trabalho, ou privadas, acessíveis só a si."
+      },
+      "step_two": {
+        "title": "Use o comando /",
+        "description": "Use / numa página para adicionar conteúdo de 16 tipos de blocos, como listas, imagens, tabelas e incorporações."
+      },
+      "step_three": {
+        "title": "Ações da página",
+        "description": "Depois de criar a página, pode clicar no menu ••• no canto superior direito para realizar as ações seguintes."
+      },
+      "step_four": {
+        "title": "Índice",
+        "description": "Tenha uma visão geral da página ao clicar no ícone do painel para ver todos os títulos."
+      },
+      "step_five": {
+        "title": "Histórico de versões",
+        "description": "As páginas registam todas as edições no histórico de versões, para poder restaurar versões anteriores se for preciso."
+      }
+    },
+    "intake": {
+      "step_zero": {
+        "title": "Simplifique os pedidos com a triagem",
+        "description": "Uma funcionalidade exclusiva da Flowix que permite aos convidados criar tarefas para bugs, pedidos ou tickets."
+      },
+      "step_one": {
+        "title": "Pedidos de triagem abertos/fechados",
+        "description": "Os pedidos pendentes ficam no separador Abertas e, depois de tratados por um administrador ou membro, passam para Fechadas."
+      },
+      "step_two": {
+        "title": "Aceitar/recusar um pedido pendente",
+        "description": "Aceite para editar e mover a tarefa para o seu projeto, ou recuse para a marcar como Cancelada."
+      },
+      "step_three": {
+        "title": "Adiar por agora",
+        "description": "Uma tarefa pode ser adiada para ser revista mais tarde. Passa para o fim da sua lista de pedidos abertos."
+      }
+    },
+    "mcp_connectors": {
+      "step_zero": {
+        "title": "Chega de saltar entre separadores. Ligue o seu mundo.",
+        "description": "Ligue o GitHub e o Slack para acompanhar PRs e resumir conversas diretamente na Flowix IA."
+      }
+    },
+    "navigation": {
+      "modal": {
+        "title": "A navegação, reinventada",
+        "sub_title": "O seu espaço de trabalho está agora mais fácil de explorar, com uma navegação mais inteligente e simples.",
+        "highlight_1": "Painel esquerdo mais simples para encontrar tudo mais depressa",
+        "highlight_2": "Pesquisa global melhorada para saltar para qualquer sítio num instante",
+        "highlight_3": "Agrupamento de categorias mais inteligente, para mais clareza e foco",
+        "footer": "Quer uma visita guiada rápida?"
+      },
+      "step_zero": {
+        "title": "Encontre tudo num instante",
+        "description": "Use a pesquisa universal para saltar para tarefas, projetos, páginas e pessoas, sem interromper o seu ritmo."
+      },
+      "step_one": {
+        "title": "Mantenha o controlo das atualizações",
+        "description": "A sua caixa de entrada reúne todas as menções, aprovações e atividade num só lugar, para nunca perder trabalho importante."
+      },
+      "step_two": {
+        "title": "Personalize a sua navegação",
+        "description": "Personalize o que vê e como navega nas Preferências."
+      }
+    },
+    "actions": {
+      "close": "Fechar",
+      "next": "Seguinte",
+      "back": "Voltar",
+      "done": "Concluído",
+      "take_a_tour": "Fazer uma visita guiada",
+      "get_started": "Começar",
+      "got_it": "Percebi"
+    },
+    "seed_data": {
+      "title": "Aqui está o seu projeto de demonstração",
+      "description": "Os projetos permitem gerir as suas equipas, tarefas e tudo o que precisa para fazer as coisas acontecerem no seu espaço de trabalho."
+    }
+  },
+  "get_started": {
+    "title": "Olá {name}, damos-lhe as boas-vindas!",
+    "description": "Aqui tem tudo o que precisa para arrancar com a Flowix.",
+    "checklist_section": {
+      "title": "Começar",
+      "description": "Comece a configuração e veja as suas ideias ganharem vida mais depressa.",
+      "checklist_items": {
+        "item_1": {
+          "title": "Criar um projeto"
+        },
+        "item_2": {
+          "title": "Criar uma tarefa"
+        },
+        "item_3": {
+          "title": "Convidar membros da equipa"
+        },
+        "item_4": {
+          "title": "Criar uma página"
+        },
+        "item_5": {
+          "title": "Experimentar o chat da Flowix IA"
+        },
+        "item_6": {
+          "title": "Ligar integrações"
+        }
+      }
+    },
+    "team_section": {
+      "title": "Convide a sua equipa",
+      "description": "Convide colegas e comecem a construir juntos."
+    },
+    "integrations_section": {
+      "title": "Dê mais força ao seu espaço de trabalho",
+      "more_integrations": "Ver mais integrações"
+    },
+    "switch_to_plane_section": {
+      "title": "Descubra porque é que as equipas mudam para a Flowix",
+      "description": "Compare a Flowix com as ferramentas que usa hoje e veja a diferença."
+    }
+  }
+}

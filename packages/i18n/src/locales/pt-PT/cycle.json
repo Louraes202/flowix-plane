@@ -1,0 +1,41 @@
+{
+  "active_cycle": {
+    "empty_state": {
+      "progress": {
+        "title": "Adicione tarefas ao ciclo para ver o progresso"
+      },
+      "chart": {
+        "title": "Adicione tarefas ao ciclo para ver o gráfico de burndown."
+      },
+      "priority_issue": {
+        "title": "Veja de relance as tarefas de alta prioridade tratadas no ciclo."
+      },
+      "assignee": {
+        "title": "Adicione responsáveis às tarefas para ver a distribuição do trabalho por responsável."
+      },
+      "label": {
+        "title": "Adicione etiquetas às tarefas para ver a distribuição do trabalho por etiqueta."
+      }
+    }
+  },
+  "cycle": {
+    "label": "{count, plural, one {Ciclo} other {Ciclos}}",
+    "no_cycle": "Sem ciclo"
+  },
+  "active_cycle_analytics": {
+    "empty_state": {
+      "progress": {
+        "title": "Adicione tarefas ao ciclo para ver o\n progresso"
+      },
+      "priority": {
+        "title": "Veja de relance as tarefas de alta prioridade\n tratadas no ciclo."
+      },
+      "assignee": {
+        "title": "Adicione responsáveis às tarefas para ver a\n distribuição do trabalho por responsável."
+      },
+      "label": {
+        "title": "Adicione etiquetas às tarefas para ver a\n distribuição do trabalho por etiqueta."
+      }
+    }
+  }
+}

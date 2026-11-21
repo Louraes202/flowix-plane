@@ -1,0 +1,42 @@
+/**
+ * Copyright (c) 2023-present Plane Software, Inc. and contributors
+ * SPDX-License-Identifier: AGPL-3.0-only
+ * See the LICENSE file for details.
+ */
+
+import * as React from "react";
+
+import type { ISvgIcons } from "../type";
+
+// Flowix: brand mark (blue squares linked by 45° strokes). Always #1a6eff.
+export const FLOWIX_BLUE = "#1a6eff";
+
+export function FlowixMark({ offsetX = 0, offsetY = 0 }: { offsetX?: number; offsetY?: number }) {
+  return (
+    <g fill={FLOWIX_BLUE} transform={`translate(${offsetX} ${offsetY})`}>
+      <rect x="74.6" y="2.18" width="4.1" height="4.1" />
+      <rect x="69.99" y="8.34" width="3.08" height="3.08" />
+      <rect x="68.45" y="2.18" width="3.08" height="3.08" />
+      <rect x="65.37" y="6.29" width="2.05" height="2.05" />
+      <rect x="65.98" y="5.12" width="4.93" height=".29" transform="translate(16.33 49.94) rotate(-45)" />
+      <rect x="72.12" y="7.07" width="3.58" height=".29" transform="translate(23.67 61.89) rotate(-53)" />
+      <rect x="74.6" y="11.41" width="3.08" height="3.08" />
+      <rect x="71.53" y="15.52" width="2.05" height="2.05" />
+      <rect x="72.14" y="14.35" width="4.93" height=".29" transform="translate(11.6 57) rotate(-45)" />
+    </g>
+  );
+}
+
+// Flowix: "Flowix" wordmark paths from logo-full-*.svg (geometry, not a font).
+export function FlowixWordmarkPaths({ color }: { color: string }) {
+  return (
+    <g fill={color}>
+      <path d="M3.64,24.08V6.2h9.5v3.36h-5.79v3.34h6.72v3.36h-6.72v7.82h-3.72Z" />
+      <path d="M19.41,6.2v17.88h-3.41V6.2h3.41Z" />
+      <path d="M33.98,18.03c0,3.46-2.9,6.31-6.38,6.31s-6.29-2.86-6.29-6.31,2.81-6.34,6.29-6.34,6.38,2.83,6.38,6.34ZM30.5,18.03c0-1.7-1.25-2.93-2.9-2.93-1.56,0-2.83,1.22-2.83,2.93s1.27,2.93,2.83,2.93c1.66,0,2.9-1.2,2.9-2.93Z" />
+      <path d="M48.55,11.96h3.34l-6.02,12.43-2.74-5.71-2.74,5.71-6.58-12.43h3.77l2.9,5.83,1.1-2.35-1.63-3.48h3.26l2.78,5.81,2.54-5.81Z" />
+      <path d="M52.65,7.88c0-.96.91-1.87,1.97-1.87,1.15,0,2.04.89,2.04,1.87,0,1.06-.89,1.94-2.04,1.94-1.06,0-1.97-.89-1.97-1.94ZM56.35,24.08h-3.41v-12.12h3.41v12.12Z" />
+      <path d="M61.48,24.08h-3.98l4.39-6.46-3.55-5.66h3.53l1.92,3.17,1.9-3.17h3.55l-3.58,5.66,4.42,6.46h-3.98l-2.3-3.58-2.3,3.58Z" />
+    </g>
+  );
+}
