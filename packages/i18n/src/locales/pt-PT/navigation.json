@@ -7,6 +7,7 @@
     }
   },
   "sidebar": {
+    "calendar": "Calendário",
     "stickies": "Notas",
     "your_work": "O meu trabalho",
     "projects": "Projetos",
@@ -30,5 +31,56 @@
     "upgrade_plan": "Fazer upgrade do plano",
     "plane_pro": "Flowix Pro",
     "business": "Business"
+  },
+  "flowix": {
+    "calendar": {
+      "title": "Calendário",
+      "new_event": "Novo evento",
+      "edit_event": "Editar evento",
+      "today": "Hoje",
+      "previous_month": "Mês anterior",
+      "next_month": "Mês seguinte",
+      "show_more": "Mais {count}",
+      "show_less": "Mostrar menos",
+      "create": "Criar evento",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "close": "Fechar",
+      "delete": "Eliminar",
+      "confirm_delete": "Confirmar eliminação",
+      "fields": {
+        "title": "Título do evento",
+        "all_day": "Dia inteiro",
+        "start": "Início",
+        "end": "Fim",
+        "project": "Projeto",
+        "no_project": "Sem projeto",
+        "clear": "Limpar",
+        "attendees": "Participantes",
+        "no_attendees": "Ninguém",
+        "location": "Local ou ligação",
+        "location_placeholder": "Escritório, morada ou ligação da reunião",
+        "description": "Notas"
+      },
+      "errors": {
+        "title": "O evento precisa de um título.",
+        "end_before_start": "O fim não pode ser antes do início."
+      },
+      "toasts": {
+        "created": "Evento criado",
+        "updated": "Evento guardado",
+        "deleted": "Evento eliminado",
+        "error": "Não foi possível guardar o evento. Tente novamente."
+      }
+    },
+    "logo_image": {
+      "tab": "Imagem",
+      "hint": "PNG, JPG, WebP ou GIF, quadrada, até 5 MB.",
+      "choose": "Carregar imagem",
+      "uploading": "A carregar...",
+      "error": "Imagem não carregada",
+      "types": "Use um ficheiro PNG, JPG, WebP ou GIF.",
+      "failed": "O carregamento falhou. Tente novamente."
+    }
   }
 }

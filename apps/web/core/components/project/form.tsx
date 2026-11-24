@@ -30,6 +30,7 @@ import { usePlatformOS } from "@/hooks/use-platform-os";
 // services
 import { ProjectService } from "@/services/project";
 // local imports
+import { ProjectLogoImageUpload } from "./logo-image-upload";
 import { ProjectNetworkIcon } from "./project-network-icon";
 
 export interface IProjectDetailsForm {
@@ -97,6 +98,7 @@ export function ProjectDetailsForm(props: IProjectDetailsForm) {
           title: t("toast.success"),
           message: t("project_settings.general.toast.success"),
         });
+        return undefined;
       })
       .catch((err) => {
         try {
@@ -192,6 +194,7 @@ export function ProjectDetailsForm(props: IProjectDetailsForm) {
         .then(async (res) => {
           if (res.exists) setError("identifier", { message: t("common.identifier_already_exists") });
           else await handleUpdateChange(payload);
+          return undefined;
         });
     else await handleUpdateChange(payload);
     setTimeout(() => {
@@ -236,9 +239,30 @@ export function ProjectDetailsForm(props: IProjectDetailsForm) {
                   }}
                   defaultIconColor={value?.in_use && value.in_use === "icon" ? value?.icon?.color : undefined}
                   defaultOpen={
-                    value.in_use && value.in_use === "emoji" ? EmojiIconPickerTypes.EMOJI : EmojiIconPickerTypes.ICON
+                    value?.in_use === "image"
+                      ? "image"
+                      : value?.in_use === "emoji"
+                        ? EmojiIconPickerTypes.EMOJI
+                        : EmojiIconPickerTypes.ICON
                   }
                   disabled={!isAdmin}
+                  extraTabs={[
+                    {
+                      key: "image",
+                      label: t("flowix.logo_image.tab"),
+                      content: (
+                        <ProjectLogoImageUpload
+                          workspaceSlug={workspaceSlug.toString()}
+                          projectId={project.id}
+                          value={value}
+                          onChange={(logo) => {
+                            onChange(logo);
+                            setIsOpen(false);
+                          }}
+                        />
+                      ),
+                    },
+                  ]}
                 />
               )}
             />
@@ -423,8 +447,8 @@ export function ProjectDetailsForm(props: IProjectDetailsForm) {
                 <>
                   <TimezoneSelect
                     value={value}
-                    onChange={(value: string) => {
-                      onChange(value);
+                    onChange={(timezone: string) => {
+                      onChange(timezone);
                     }}
                     error={Boolean(errors.timezone)}
                     buttonClassName="!border-subtle !shadow-none font-medium rounded-md"

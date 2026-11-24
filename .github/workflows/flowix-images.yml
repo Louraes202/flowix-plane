@@ -1,5 +1,6 @@
-# Flowix: build the rebranded frontend images (web, admin, space) and push them to GHCR.
-# The other Plane images (backend, live, proxy) stay the official makeplane ones.
+# Flowix: build our images (web, admin, space and backend) and push them to GHCR.
+# The backend image carries the Flowix Django app (plane.flowix: shared calendar events)
+# and is used by api, worker, beat-worker and migrator. live and proxy stay the official ones.
 name: Flowix images
 
 on:
@@ -27,12 +28,19 @@ jobs:
           - app: web
             image: flowix-plane-frontend
             dockerfile: apps/web/Dockerfile.web
+            context: .
           - app: admin
             image: flowix-plane-admin
             dockerfile: apps/admin/Dockerfile.admin
+            context: .
           - app: space
             image: flowix-plane-space
             dockerfile: apps/space/Dockerfile.space
+            context: .
+          - app: backend
+            image: flowix-plane-backend
+            dockerfile: apps/api/Dockerfile.api
+            context: apps/api
     steps:
       - uses: actions/checkout@v4
 
@@ -61,7 +69,7 @@ jobs:
 
       - uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ${{ matrix.context }}
           file: ${{ matrix.dockerfile }}
           platforms: linux/amd64
           push: true

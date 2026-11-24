@@ -10,6 +10,7 @@
 import useFontFaceObserver from "use-font-face-observer";
 // plane imports
 import type { TLogoProps } from "@plane/types";
+import { getFileURL } from "@plane/utils";
 // local imports
 import { getEmojiSize, stringToEmoji } from "./helper";
 import { LUCIDE_ICONS_LIST } from "./lucide-icons";
@@ -36,7 +37,23 @@ export function Logo({ logo, size = 16, type = "material" }: Props) {
   // Early returns for loading/empty states
   if (!logo || !logo.in_use) return loadingSkeleton;
 
-  const { in_use, emoji, icon } = logo;
+  const { in_use, emoji, icon, image } = logo;
+
+  // Flowix: uploaded image (project logos)
+  if (in_use === "image") {
+    const src = image?.url ? getFileURL(image.url) : undefined;
+    if (!src) return loadingSkeleton;
+    return (
+      <img
+        src={src}
+        alt=""
+        className="flex-shrink-0 rounded-sm object-cover"
+        style={{ height: size, width: size }}
+        draggable={false}
+      />
+    );
+  }
+
   const value = in_use === "emoji" ? emoji?.value : icon?.name;
 
   if (!value) return loadingSkeleton;
