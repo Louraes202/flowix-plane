@@ -7,7 +7,7 @@
 // types
 import type { TLogoProps } from "@plane/types";
 // helpers
-import { cn } from "@plane/utils";
+import { cn, getFileURL } from "@plane/utils";
 
 type Props = {
   className?: string;
@@ -16,6 +16,10 @@ type Props = {
 
 export function ProjectLogo(props: Props) {
   const { className, logo } = props;
+
+  // Flowix: uploaded image
+  if (logo.in_use === "image" && logo.image?.url)
+    return <img src={getFileURL(logo.image.url)} alt="" className={cn("size-4 rounded-sm object-cover", className)} />;
 
   if (logo.in_use === "icon" && logo.icon)
     return (

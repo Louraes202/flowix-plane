@@ -32,6 +32,7 @@ export function EmojiPicker(props: TCustomEmojiPicker) {
     iconType = "lucide",
     side = "bottom",
     align = "start",
+    extraTabs,
   } = props;
 
   // side and align calculations
@@ -91,12 +92,13 @@ export function EmojiPicker(props: TCustomEmojiPicker) {
             />
           ),
         },
+        ...(extraTabs ?? []),
       ].map((tab) => ({
         key: tab.key,
         label: tab.label,
         content: tab.content,
       })),
-    [defaultIconColor, searchDisabled, searchPlaceholder, iconType, handleEmojiChange, handleIconChange]
+    [defaultIconColor, searchDisabled, searchPlaceholder, iconType, handleEmojiChange, handleIconChange, extraTabs]
   );
 
   return (
@@ -126,7 +128,7 @@ export function EmojiPicker(props: TCustomEmojiPicker) {
         }}
       >
         <Tabs.Root defaultValue={defaultOpen}>
-          <Tabs.List className="grid grid-cols-2 gap-1 px-3.5 pt-3">
+          <Tabs.List className={cn("grid gap-1 px-3.5 pt-3", tabs.length > 2 ? "grid-cols-3" : "grid-cols-2")}>
             {tabs.map((tab) => (
               <Tabs.Tab
                 key={tab.key}

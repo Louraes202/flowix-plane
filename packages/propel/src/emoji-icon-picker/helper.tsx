@@ -33,7 +33,7 @@ export type TCustomEmojiPicker = {
   className?: string;
   closeOnSelect?: boolean;
   defaultIconColor?: string;
-  defaultOpen?: TEmojiIconPickerTypes;
+  defaultOpen?: TEmojiIconPickerTypes | string;
   disabled?: boolean;
   dropdownClassName?: string;
   label: React.ReactNode;
@@ -45,6 +45,8 @@ export type TCustomEmojiPicker = {
   theme?: "light" | "dark";
   side?: TSide;
   align?: TAlign;
+  /** Flowix: extra tabs after Emoji and Icon (e.g. an image upload for project logos). */
+  extraTabs?: { key: string; label: string; content: React.ReactNode }[];
 };
 
 export type TIconsListProps = {
@@ -52,6 +54,8 @@ export type TIconsListProps = {
   onChange: (val: { name: string; color: string }) => void;
   searchDisabled?: boolean;
 };
+
+const toHexByte = (value: number): string => value.toString(16).padStart(2, "0");
 
 /**
  * Adjusts the given hex color to ensure it has enough contrast.
@@ -89,12 +93,7 @@ export const adjustColorForContrast = (hex: string): string => {
   }
 
   // Convert RGB back to hex
-  const toHex = (value: number): string => {
-    const hex = value.toString(16);
-    return hex.length === 1 ? "0" + hex : hex;
-  };
-
-  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+  return `#${toHexByte(r)}${toHexByte(g)}${toHexByte(b)}`;
 };
 
 export const DEFAULT_COLORS = ["#95999f", "#6d7b8a", "#5e6ad2", "#02b5ed", "#02b55c", "#f2be02", "#e57a00", "#f38e82"];
