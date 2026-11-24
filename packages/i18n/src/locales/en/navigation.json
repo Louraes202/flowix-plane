@@ -7,6 +7,7 @@
     }
   },
   "sidebar": {
+    "calendar": "Calendar",
     "stickies": "Stickies",
     "your_work": "Your work",
     "projects": "Projects",
@@ -30,5 +31,56 @@
     "upgrade_plan": "Upgrade plan",
     "plane_pro": "Plane Pro",
     "business": "Business"
+  },
+  "flowix": {
+    "calendar": {
+      "title": "Calendar",
+      "new_event": "New event",
+      "edit_event": "Edit event",
+      "today": "Today",
+      "previous_month": "Previous month",
+      "next_month": "Next month",
+      "show_more": "+{count} more",
+      "show_less": "Show less",
+      "create": "Create event",
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "delete": "Delete",
+      "confirm_delete": "Confirm delete",
+      "fields": {
+        "title": "Event title",
+        "all_day": "All day",
+        "start": "Start",
+        "end": "End",
+        "project": "Project",
+        "no_project": "No project",
+        "clear": "Clear",
+        "attendees": "Attendees",
+        "no_attendees": "Nobody",
+        "location": "Location or link",
+        "location_placeholder": "Office, address or meeting link",
+        "description": "Notes"
+      },
+      "errors": {
+        "title": "The event needs a title.",
+        "end_before_start": "The end cannot be before the start."
+      },
+      "toasts": {
+        "created": "Event created",
+        "updated": "Event saved",
+        "deleted": "Event deleted",
+        "error": "Could not save the event. Try again."
+      }
+    },
+    "logo_image": {
+      "tab": "Image",
+      "hint": "PNG, JPG, WebP or GIF, square, up to 5 MB.",
+      "choose": "Upload image",
+      "uploading": "Uploading...",
+      "error": "Image not uploaded",
+      "types": "Use a PNG, JPG, WebP or GIF file.",
+      "failed": "The upload failed. Try again."
+    }
   }
 }

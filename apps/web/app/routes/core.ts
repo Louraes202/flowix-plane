@@ -100,6 +100,11 @@ export const coreRoutes: RouteConfigEntry[] = [
           ),
         ]),
 
+        // Flowix: shared calendar
+        layout("./(all)/[workspaceSlug]/(projects)/calendar/layout.tsx", [
+          route(":workspaceSlug/calendar", "./(all)/[workspaceSlug]/(projects)/calendar/page.tsx"),
+        ]),
+
         // Stickies
         layout("./(all)/[workspaceSlug]/(projects)/stickies/layout.tsx", [
           route(":workspaceSlug/stickies", "./(all)/[workspaceSlug]/(projects)/stickies/page.tsx"),
