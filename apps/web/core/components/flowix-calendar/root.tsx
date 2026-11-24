@@ -205,7 +205,7 @@ export const FlowixCalendarRoot = observer(function FlowixCalendarRoot({ workspa
         event={modal.event}
         day={modal.day}
         readOnly={!canEdit}
-        onClose={() => setModal({ open: false })}
+        onClose={() => setModal((prev) => ({ ...prev, open: false }))}
         onSaved={() => void mutate()}
       />
     </div>
